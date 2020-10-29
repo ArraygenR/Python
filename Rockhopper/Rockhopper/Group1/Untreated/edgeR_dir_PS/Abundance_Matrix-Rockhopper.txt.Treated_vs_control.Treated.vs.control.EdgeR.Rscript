@@ -1,0 +1,22 @@
+library(edgeR)
+
+data = read.table("/media/arraygen/Disk2/chandrashekhar_RNASeq/DEG/Rockhopper/Abundance_Matrix-Rockhopper.txt", header=T, row.names=1, com='')
+col_ordering = c(17,1)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("Treated", 1), rep("control", 1)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+et = exactTest(exp_study, pair=c("Treated", "control"), dispersion=0.1)
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="Treated", sampleB="control", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='Abundance_Matrix-Rockhopper.txt.Treated_vs_control.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='Abundance_Matrix-Rockhopper.txt.Treated_vs_control.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/home/arraygen/NGS_Tool/Trinityrnaseq-v2.6.6.wExtSampleData/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("Abundance_Matrix-Rockhopper.txt.Treated_vs_control.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()
