@@ -1,0 +1,5 @@
+File_with_path,FileSeperator,Fold_Change_Col,Pvalue_Col,Annotation,Annotation_Condition_FC,Annotation_Condition_Pval,UpColor,DownColor,Non_Sig_Color,UpCondition,DownCondition,NonSigCondition
+/home/arraygen/Desktop/Akshata/Python/volcanoplot/DEG_Common.csv,\t,4,5,1,3.5,4,#FF0000,#008000,#808080,0.8,-0.8,0.05
+/home/arraygen/Desktop/Akshata/Python/volcanoplot/DEG_Common.csv,\t,4,5,0,,,#FF0000,#008000,#808080,0.8,-0.8,0.05
+/home/arraygen/Desktop/Akshata/Python/volcanoplot/DEG_Common.csv,\t,9,10,1,3.5,4,#FF0000,#008000,#808080,0.8,-0.8,0.05
+/home/arraygen/Desktop/Akshata/Python/volcanoplot/DEG_Common.csv,\t,9,10,0,,,#FF0000,#008000,#808080,0.8,-0.8,0.05
