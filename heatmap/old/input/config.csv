@@ -1,0 +1,2 @@
+File_with_path	FileSeperator	Fold_Change_Col	Pvalue_Col	NonSigCondition
+/home/arraygen/Desktop/Akshata/Python/heatmap/Combined_DEG1.csv	\t	[4,10]	[6,12]	0.05
