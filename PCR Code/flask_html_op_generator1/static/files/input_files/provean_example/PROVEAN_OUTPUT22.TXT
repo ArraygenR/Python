@@ -1,0 +1,15 @@
+## PROVEAN v1.1 output ##
+# Query sequence file:	/home/arraygen/Desktop/Akshata/Python/blast_handing/flask_html_op_generator1/static/files/input_files/provean_example/protein.fasta
+# Variation file:	/home/arraygen/Desktop/Akshata/Python/blast_handing/flask_html_op_generator1/static/files/input_files/provean_example/muta22.var
+# Protein database:	/home/arraygen/Downloads/provean/nr_db/nr
+[15:57:51] searching related sequences...
+[15:59:29] clustering subject sequences...
+# Number of clusters:	30
+# Number of supporting sequences used:	203
+[15:59:29] computing delta alignment scores...
+## PROVEAN scores ##
+# VARIATION	SCORE
+126,P,T	-5.908
+127,Y,V	-6.141
+134,A,C	-2.335
+128,TDAQ,HGRA	-18.505

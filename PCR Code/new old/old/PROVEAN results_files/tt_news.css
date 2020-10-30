@@ -1,0 +1,404 @@
+/* default styles for extension "tt_news" */
+
+/*------------------------------------------------ clearer -----------------------------------------------*/
+/*             prevent floated images from overlapping the div-containers they are wrapped in             */
+/*--------------------------------------------------------------------------------------------------------*/
+.news-list-container HR.clearer, .news-single-item HR.clearer, .news-latest-container HR.clearer {
+  clear:right;
+  height:1px;
+  border:1px solid #F9FFE5;
+} /* end .news-list-container HR.clearer, .news-single-item HR.clearer, .news-latest-container HR.clearer */
+
+.news-latest-container HR.clearer { clear:left; }
+/*---------------------------------------------- end clearer ---------------------------------------------*/
+ 
+/*------------------------------------------ tt_news LATEST view -----------------------------------------*/
+.csc-firstHeader { font-size:100% }
+.news-latest-container p {}
+.news-latest-item { margin-bottom:10px; }
+/*---------------------------------------- end tt_news LATEST view ---------------------------------------*/
+
+/*----------------------------------------- tt_news LIST view --------------------------------------------*/
+.news-list-container {}
+.news-list-item {
+  /* IE hack */
+  height: 1%;
+  line-height: 1.3;
+
+  /* IE hack end */
+/*  padding:6px;
+  padding-left: 0;
+  margin-bottom:10px;*/
+} /* end .news-list-item */
+
+.news-search-form { margin-bottom: 1em; }
+.news-search-emptyMsg{ margin:0px; }
+.news-search-form FORM { margin:0px; }
+.news-list-container H3 {
+  margin:5px 0px 0px 0px;
+  font-weight:normal;
+} /* end .news-list-container H3 */
+
+.news-list-container H3 A:LINK,.news-list-container H3 A:VISITED,.news-list-container H3 A:HOVER {}
+.news-list-container H3 A {}
+.news-list-container P {
+  font-size:10px;
+  /* margin-top:5px; */
+} /* end .news-list-container P */
+
+.news-list-imgcaption {
+  float: right;
+  padding-top:3px;
+  padding-right:3px;
+  font-size: 9px;
+} /* end .news-list-imgcaption */
+
+/*.news-list-container IMG { margin-left:5px; }*/
+.news-list-category IMG {
+  float: none;
+  border:none;
+  margin:0px;
+} /* end .news-list-category IMG */
+
+.news-list-morelink,.news-list-category {
+  font-size:9px;
+  margin-left:3px;
+} /* end .news-list-morelink,.news-list-category */
+.news-list-morelink { margin-bottom:3px; }
+.news-list-browse { text-align: center; }
+/*--------------------------------------- end tt_news LIST view ------------------------------------------*/
+
+/*----------------------------------------- tt_news Page-Browser -----------------------------------------*/
+.tx-ttnews-browsebox, .browseBoxWrap {
+  margin-top:30px;
+  font-size:12px;
+} /* end .tx-ttnews-browsebox, .browseBoxWrap */
+
+.tx-ttnews-browsebox TD { font-size: 10px; }
+.tx-ttnews-browsebox-strong, .tx-ttnews-browsebox-SCell { font-weight: bold; }
+.tx-ttnews-browsebox-SCell P,.tx-ttnews-browsebox TD P{ margin:0px; }
+.tx-ttnews-browsebox-SCell { border:1px solid #BDB6B6; }
+/*--------------------------------------- end tt_news Page-Browser ---------------------------------------*/
+
+/*------------------------------------------ tt_news SINGLE view -----------------------------------------*/
+.news-single-item { margin-bottom:5px; }
+#contentmain .news-single-item H2 {
+  font-size:14px;
+  line-height:23px;
+  color:#5B5655;
+  font-weight:bold;
+} /* end #contentmain .news-single-item H2 */
+.news-single-item H3 {
+  font-size:12px;
+  font-weight:bold;
+} /* end .news-single-item H3 */
+
+.news-single-img {
+  float: right;
+  margin-left:5px;
+} /* end .news-single-img */
+.news-single-imgcaption {
+  padding:3px;
+  clear:both;
+} /* end .news-single-imgcaption */
+.news-single-category {}
+.news-single-backlink, .news-single-backlink a {
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+} /* end .news-single-backlink, .news-single-backlink a */
+
+.news-single-timedata { float: right; }
+.news-single-timedata, .news-single-author,.news-single-imgcaption { font-size: 9px; }
+.news-single-author { padding-bottom: 3px; }
+.news-single-additional-info { margin-top: 15px; } 
+
+.news-single-related, .news-single-files, .news-single-links  {
+  margin:0px;
+  margin-bottom: 20px;
+} /* end .news-single-related,.news-single-files,.news-single-links */
+/*.news-single-related DD, .news-single-links DD, .news-single-files DD { margin-left: 20px; }*/
+.news-single-related DT, .news-single-links DT, .news-single-files DT { font-weight: bold; margin-bottom: 1em; }
+.news-single-related DT, .news-single-files DT, .news-single-related DD, .news-single-files DD { font-size: 1.1em; }
+.news-single-related dd img { display: none; }
+.news-single-related dd { margin-bottom: 1em; }
+
+.news-single-files dd img { padding-right: 5px; }
+/*---------------------------------------- end tt_news SINGLE view ---------------------------------------*/
+
+/*-------------------------------------- tt_news Archivemenu (AMENU) -------------------------------------*/
+.news-amenu-container {
+  margin-top:10px;
+  /*padding:3px;*/
+  border:1px solid #333;
+  background-color:#BBE53A;
+} /* end .news-amenu-container */
+
+.news-amenu-container LI { padding-bottom:1px; }
+.news-amenu-container UL {
+  padding:3px;
+  margin-top:0px;
+  padding-top: 0px;
+  margin-left:0px;
+  margin-bottom:0px;
+  border:1px solid #666;
+  border-top: 0;
+  background-color:#F9FFE5;
+  list-style-type: none;
+} /* end .news-amenu-container UL */
+
+.news-amenu-container H2 {
+  color:#fff;
+  padding:3px;
+  border:1px solid #666;
+  background-color:#769024;
+} /* end .news-amenu-container H2 */
+.news-amenu-item-year {
+  font-weight: bold;
+  border: 1px solid #666;
+  padding: 2px;
+  background-color: #769024;
+  color:#fff;
+} /* end .news-amenu-container H2 */
+.archive_browser { padding-bottom: 2em; }
+/*------------------------------------ end tt_news Archivemenu (AMENU) -----------------------------------*/
+
+/*------------------------------------ tt_news Categorymenu (CATMENU) ------------------------------------*/
+.news-catmenu  {
+  padding:5px;
+  margin:10px 0px 10px 10px;
+  border:1px solid #666;
+  background-color:#F9FFE5;
+} /* end .news-catmenu */
+.news-catmenu-header {
+  font-size:11px;
+  font-weight:bold;
+} /* end .news-catmenu-header */
+.news-catmenu DIV {
+  font-size:10px;
+  white-space: nowrap;
+} /* end .news-catmenu DIV */
+
+.news-catmenu DIV img, .news-catmenu img, .news-catmenu-header img {
+  margin:0px;
+  padding: 0px;
+  vertical-align: middle;
+} /* end .news-catmenu DIV img, .news-catmenu img, .news-catmenu-header img */
+.news-catmenu-ACT { font-weight:bold; }
+
+/*  Styles for catmenu mode "nestedWraps" */
+.level1 {
+  padding:1px;
+  padding-left:10px;
+  background-color:#ebf8bf;
+  border-left:1px solid #666;
+  border-top:1px solid #666;
+} /* end .level1 */
+
+.level2 {
+  padding:1px;
+  padding-left:10px;
+  background-color:#ddf393;
+  border-left:1px solid #666;
+} /* end .level2 */
+
+.level3 {
+  padding:1px;
+  padding-left:10px;
+  background-color:#cae46e;
+  border-left:1px solid #666;
+  border-top:1px solid #666;
+} /* end .level3 */
+
+.level4 {
+  padding:1px;
+  padding-left:10px;
+  background-color:#b0cb51;
+  border-left:1px solid #666;
+} /* end .level4 */
+/*---------------------------------- end tt_news Categorymenu (CATMENU) ----------------------------------*/
+
+/*---------------------------------- tt_news LIST view Research Pages ------------------------------------*/
+#middle_content .news-list-container-research {
+  padding-top:5px;
+} /* end #middle_content .news-list-container-research */
+
+#middle_content .news-list-container-research .news-list-item {
+  border:1px dashed #BBBBBB;
+  padding:6px;
+  margin-bottom:10px;
+} /* end #middle_content .news-list-container-research .news-list-item */
+
+#middle_content .news-list-container-research p.header1 { clear: both; }
+/*-------------------------------- end tt_news LIST view Research Pages ----------------------------------*/
+
+/*---------------------------------- tt_news LIST view Publications Pages ------------------------------------*/
+#middle_content .publications-list-container,
+#middle_content_template .publications-list-container { padding-top: 5px; } 
+#middle_content .publications-list-container .publications-list-item,
+#middle_content_template .publications-list-container .publications-list-item {
+  border:none;
+  padding-left:30px;
+  padding-bottom:6px;
+  margin-top:20px;
+  background:url('http://www.jcvi.org/cms/fileadmin/site/publications/icon-abstract.gif') no-repeat top left;
+  border-bottom:solid 1px #dfdfdf;
+} /* end #middle_content .publications-list-container .news-list-item */
+
+#middle_content .publications-list-container p.header1,
+#middle_content_template .publications-list-container p.header1 { clear: both; }
+#middle_content_template .publications-list-container P,
+#middle_content .publications-list-container P { font-size: 1em; } 
+
+#select_publications { margin-top: -25px; }
+
+a.citation { 
+  padding-left: 14px;
+  background:url('http://www.jcvi.org/cms/fileadmin/site/publications/icon-abstract-small.gif') no-repeat top left;
+} /* end .news-single-category a.citation */
+
+a.citation:hover {
+  padding-left: 14px;
+  background:url('http://www.jcvi.org/cms/fileadmin/site/publications/icon-abstract-small-white.gif') no-repeat top left;
+  background-color:#0081b3;
+} /* end .news-single-category a.citation */
+
+.related_files img { margin-right: 0.5em; }
+.related_links { margin-bottom: 2em; }
+/*-------------------------------- end tt_news LIST view Publications Pages ----------------------------------*/
+
+/*-------------------------------- tt_news LIST view Press Release Page ----------------------------------*/
+#middle_content .news-list-item,
+#middle_content .news-list-container { clear: both; }
+
+#middle_content .news-list-item-left a:hover { background: none; }
+#middle_content .news-list-item-left {
+  float: left;
+  position:relative;
+  display: inline; /* to prevent IE6's double margin bug */ 
+} /* end #middle_content .news-list-item-left */
+
+#middle_content .news-list-item-left, 
+#middle_content .news-list-item-right { padding-top: 10px; }
+
+#middle_content .news-list-item-right { 
+  vertical-align: middle;
+  width: 437px;
+  margin-left: 10px;
+  float: left; 
+} /* end #middle_content .news-list-item-right */
+
+#middle_content .news-list-item-right a { font-size: 1.1em; }
+
+.related_news h3 a { font-weight: normal; }
+#middle_content .news-list-container H3 {
+  font-size:1.1em;
+  margin:5px 0px 0px 0px;
+} /* end #middle_content .news-list-container H3 */
+
+#middle_content .news-list-container H3 A,
+#middle_content .news-list-container H3 A:LINK,
+#middle_content .news-list-container H3 A:VISITED, 
+#middle_content .news-list-container H3 A:HOVER {}
+#middle_content .news-list-container P { font-size: 1em; }
+#middle_content .news-list-container P.header1 { font-size: 1.5em; }
+
+.related_news .news-list-date { color: #ff0000; }
+#middle_content .news-list-date {
+  font-size: 1em;
+  color: #686868;
+} /* end #middle_content .news-list-date */
+
+#middle_content .news-list-imgcaption {
+  float: right;
+  padding-top: 3px;
+  padding-right: 3px;
+  font-size: .9em;
+} /* end #middle_content .news-list-imgcaption */
+
+#middle_content .news-list-category IMG {
+  float: none;
+  border: none;
+  margin: 0px;
+} /* end #middle_content .news-list-category IMG */
+
+#middle_content_template .news-list-morelink,
+#middle_content_template .news-list-category,
+#middle_content .news-list-morelink, 
+#middle_content .news-list-category {
+  font-size: .9em;
+  margin-left: 3px;
+} /* end #middle_content .news-list-morelink, #middle_content .news-list-category */
+#middle_content .news-list-morelink { margin-bottom: 3px; }
+#middle_content .news-list-browse { 
+  text-align: center; 
+  clear: both; 
+} /* end #middle_content .news-list-browse */
+
+#middle_content .tx-ttnews-browsebox, .browseBoxWrap {
+  margin-top: 30px;
+  font-size: 1em;
+} /* end #middle_content .tx-ttnews-browsebox, .browseBoxWrap */
+
+#middle_content .tx-ttnews-browsebox TABLE {
+  border: 1px solid black;
+  text-align: center; /* can't get it to center table -- need to fix */
+} /* end #middle_content .tx-ttnews-browsebox TABLE */
+
+#middle_content .tx-ttnews-browsebox TD { font-size: 1em; }
+
+#middle_content .tx-ttnews-browsebox-strong, 
+#middle_content .tx-ttnews-browsebox-SCell { font-weight: bold; }
+
+#middle_content .tx-ttnews-browsebox-SCell P, 
+#middle_content .tx-ttnews-browsebox TD P{ margin: 0px; }
+
+#middle_content .tx-ttnews-browsebox-SCell {
+  margin: 3px;
+  border: 1px solid #cfcfcf;
+} /* end #middle_content .tx-ttnews-browsebox-SCell */
+/*------------------------------ end tt_news LIST view Press Release Page --------------------------------*/
+
+/*----------------------------------- tt_news LATEST view Home Page  -------------------------------------*/
+.news-latest-container {}
+.news-latest-item { margin-bottom:10px; }
+
+.news-latest-date,
+.news-latest-morelink,
+.news-latest-category {
+  font-size:1em;
+  color:#999999;
+} /* end .news-latest-date,.news-latest-morelink,.news-latest-category */
+/*--------------------------------- end tt_news LATEST view Home Page  -----------------------------------*/
+
+/*----------------------------------------- media page styles --------------------------------------------*/
+.media-list-item, dl.news-single-related dd { border: 1px dashed #BBBBBB; }
+.media-list-item, dl.news-single-related dd { padding: 6px; }
+.media-list-item, dl.news-single-related dd { margin-bottom: 10px; }
+
+#middle_content .media-list-item p.bodytext {
+  margin: 0;
+  padding: 0;
+} /* end .media-list-item p.bodytext */
+#swords { display: none; }
+/*--------------------------------------- end media page styles ------------------------------------------*/
+
+/*--------------------------------------- research page styles -------------------------------------------*/
+.research-list-item {
+  padding-left: 72px;
+  margin-bottom: 0;
+  clear: both;
+} /* end .news-list-item */
+/*------------------------------------- end research page styles -----------------------------------------*/
+
+/*------------------------------------ start archived page styles ----------------------------------------*/
+.news-amenu-item-year, 
+.news-amenu-container h2 { display: none; }
+
+.news-amenu-container ul, 
+.news-amenu-container { 
+  border: none; 
+  background: none; 
+} /* end .news-amenu-container ul, .news-amenu-container */
+/*------------------------------------- end archived page styles -----------------------------------------*/

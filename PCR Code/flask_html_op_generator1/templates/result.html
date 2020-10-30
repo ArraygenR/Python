@@ -1,0 +1,129 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<style>
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.gradient{
+  font-size:25px;
+  background: linear-gradient(90deg,#93bf48, #0293be, #0293be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tbl th, .tbl td {
+  padding: 4px;
+  text-align: left;
+}
+/* navbar */
+.navbar-default {
+    background-color: #337ab7;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #7FBA44;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <img class="" src="https://www.arraygen.com/images/arraygen_logo.jpg" style="width:160px; height:auto;">
+    </div>
+    <div class="col-sm-4">
+      <h5 style="color:#8a8a8a;">
+      <b class = "gradient">Arraygen Technology Pvt. Ltd.</b><br/>
+      Pune, Maharashtra, India.<br/>
+      www.arraygen.com<br/>
+    </h5>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default justify-content-center">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="/">Home</a></li>
+      <li class="active"><a href="/result/">Results</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+       <div class="col-sm-12">
+         <div class="card">
+          <div style="padding:1px 10px;">
+            <h3>Result Table</h3>
+              <hr>
+               <table style="width:100%" class="table table-bordered table-striped" id ="geneTable">
+              <thead>
+                <tr class="bg-primary">
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Project ID</th>
+                  <th>Gene</th>
+                  <th>Organism</th>
+                  <th>Number of Sample</th>
+                  <th>View</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              {% for row in tblRows %}
+                <tr>
+
+                  <td>{{ row.name }}</td>
+                  <td>{{ row.date }}</td>
+                  <td>{{ row.ATPL }}</td>
+                  <td>{{ row.gene }}</td>
+                  <td>{{ row.organism }}</td>
+                  <td>{{ row.No_of_Sample }}</td>
+                  <td>
+                    <a href="/download_xlsx_op/?folder={{ row.folder_name }}&gene_blast_file={{ row.gene_blast_file }}" target="_blank">
+                      <button type="button" class="btn btn-sm btn-success"><i class="fa fa-download" aria-hidden="true"></i> Excel</button>
+                    </a>
+                    <a href="/output/?name={{ row.name }}&date={{ row.date }}&ATPL={{ row.ATPL }}&gene={{ row.gene }}&organism={{ row.organism }}&No_of_Sample={{ row.No_of_Sample }}&folder={{ row.folder_name }}&gene_blast_file={{ row.gene_blast_file }}&protein_blast_file={{ row.protein_blast_file }}&protein_fasta_file={{ row.protein_fasta_file }}" target="_blank">
+                      <button type="button" class="btn btn-sm btn-warning"> <i class="fa fa-eye" aria-hidden="true"></i> View </button>
+                    </a>
+                  </td>
+<!--
+                  <td><a href="/output/?folder={{ row.folder_name }}&gene_blast_file={{ row.gene_blast_file }}&protein_blast_file={{ row.protein_blast_file }}&protein_fasta_file={{ row.protein_fasta_file }}" target="_blank"> View </a></td>
+-->
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+

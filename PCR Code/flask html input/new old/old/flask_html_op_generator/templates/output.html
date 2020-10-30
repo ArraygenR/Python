@@ -1,0 +1,156 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<style>
+  h5 b{
+  font-size:25px;
+  background: linear-gradient(90deg,#93bf48, #0293be, #0293be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+     <!-- <img class="" src="{{ url_for('static' , filename= 'images/arraygen_logo.jpg')}}" style="width:250px; height:auto;">-->
+      <img class="" src="https://www.arraygen.com/images/arraygen_logo.jpg" style="width:250px; height:auto;">
+    </div>
+    <div class="col-sm-4">
+      <h5>
+      <b>Arraygen Technology Pvt. Ltd.</b><br/>
+      Pune, Maharashtra, India.<br/>
+      www.arraygen.com<br/>
+    </h5>
+      <table>
+        <tr>
+          <th>Client Name : </th>
+          <td> &nbsp; ABC</td>
+        </tr>
+        <tr>
+          <th> Date : </th>
+          <td> &nbsp; 09 July 2020</td>
+        </tr>
+        <tr>
+          <th> Project ID : </th>
+          <td> &nbsp; ATPL-234879034</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+
+  <br/>
+  <br/>
+  <div class="table-responsive-lg">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr class="bg-primary">
+          <th colspan=" 23">
+            <h1>
+              <span id = "button_hide">
+                  <a href="/download_xlsx_op/" target="blank">
+                      <button type="button" class="btn btn-lg btn-success"><i class="fa fa-download" aria-hidden="true"></i> Excel</button>
+                  </a>
+
+                <a onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(myFunction());" href="#" download="PCR_Product_Variants_Results.html">
+                  <button type="button" class="btn btn-lg btn-success"><i class="fa fa-download" aria-hidden="true"></i> HTML</button>
+                </a>
+
+
+              </span>
+              PCR Product Variants Results
+            </h1>
+          </th>
+
+        </tr>
+        <tr class="bg-primary">
+          <th>Query</th>
+          <th>Length</th>
+          <th>Gene</th>
+          <th>Length</th>
+          <th>Score</th>
+          <th>Except</th>
+          <th>Identities</th>
+          <th>Gaps</th>
+          <th>Variation</th>
+          <th>Position</th>
+          <th>Mutation Type</th>
+          {% if 'NonProtein' != status %}
+          <th>Protein</th>
+          <th>Length</th>
+          <th>Score</th>
+          <th>Except</th>
+          <th>Identities</th>
+          <th>Gaps</th>
+          <th>Variation</th>
+          <th>Position</th>
+          <th>Mutation Type</th>
+          <th>PROVEAN Input Variants</th>
+          <th>PROVEAN Score</th>
+          <th>Prediction (cutoff = -2.5)</th>
+           {% endif %}
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for row in tblRows %}
+            {% if 'deleterious' == row.Prediction_cutoff_2_dot_5 %}
+                  <tr class="danger">
+            {% else  %}
+                  <tr>
+            {% endif %}
+          <td>{{ row.Query }}</td>
+          <td>{{ row.QLength }}</td>
+          <td>{{ row.Gene }}</td>
+          <td>{{ row.GLength }}</td>
+          <td>{{ row.GScore }}</td>
+          <td>{{ row.GExcept }}</td>
+          <td>{{ row.GIdentities }}</td>
+          <td>{{ row.GGaps }}</td>
+          <td>{{ row.GVariation }}</td>
+          <td>{{ row.GPosition }}</td>
+          <td>{{ row.GMutation_Type }} </td>
+          {% if 'NonProtein' != status %}
+          <td>{{ row.Protein }}</td>
+          <td>{{ row.PLength }}</td>
+          <td>{{ row.PScore }}</td>
+          <td>{{ row.PExcept }}</td>
+          <td>{{ row.PIdentities }}</td>
+          <td>{{ row.PGaps }}</td>
+          <td>{{ row.PVariation }}</td>
+          <td>{{ row.PPosition }}</td>
+          <td>{{ row.PMutation_Type }}</td>
+          <td>{{ row.PROVEAN_Input_Variants }}</td>
+          <td>{{ row.PROVEAN_Score }}</td>
+
+          <td>
+            {% if 'neutral' == row.Prediction_cutoff_2_dot_5 %}
+                  <b class ="text-success">
+            {% elif 'deleterious' == row.Prediction_cutoff_2_dot_5  %}
+                  <b class ="text-danger">
+            {% endif %}
+                {{ row.Prediction_cutoff_2_dot_5 }}
+            {% if 'neutral' == row.Prediction_cutoff_2_dot_5 %}
+                  </b>
+            {% elif 'deleterious' == row.Prediction_cutoff_2_dot_5  %}
+                  </b>
+            {% endif %}
+          </td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var p1 = document.documentElement.innerHTML
+  return p1;
+}
+</script>
+{% endblock %}
+

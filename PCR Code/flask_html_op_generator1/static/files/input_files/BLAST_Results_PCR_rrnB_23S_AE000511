@@ -1,0 +1,1774 @@
+BLASTN 2.3.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Ref_rrnB_23S_AE000511.1.seq.fasta
+           1 sequences; 2,976 total letters
+
+
+
+Query= 10_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  665     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 363/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  5    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  64
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  65   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  124
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  125  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  184
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  185  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  243
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  244  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  304  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  364  GTAA  367
+            ||||
+Sbjct  563  GTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 11_23S_rRNA
+
+Length=370
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  656     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 656 bits (355),  Expect = 0.0
+ Identities = 360/362 (99%), Gaps = 1/362 (0%)
+ Strand=Plus/Minus
+
+Query  5    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  64
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  65   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAAC  124
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  125  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  184
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  185  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  243
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  244  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  304  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  364  TG  365
+            ||
+Sbjct  564  TG  563
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1057791
+
+
+Query= 12_23S_rRNA
+
+Length=366
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  665     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 363/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTAA  365
+            ||||
+Sbjct  563  GTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1045939
+
+
+Query= 1_23S_rRNA
+
+Length=352
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  632     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 632 bits (342),  Expect = 0.0
+ Identities = 347/349 (99%), Gaps = 1/349 (0%)
+ Strand=Plus/Minus
+
+Query  5    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  64
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  65   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGGAAGACCCCGTGGACCTTTACTACAACT  124
+            |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  125  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  184
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  185  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  243
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  244  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  304  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATC  352
+            |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATC  575
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1004457
+
+
+Query= 13_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  665     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 363/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  2    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  62   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  122  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  182  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  240
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  241  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  301  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  361  TGTA  364
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 15_23S_rRNA
+
+Length=369
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  667     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 667 bits (361),  Expect = 0.0
+ Identities = 364/365 (99%), Gaps = 1/365 (0%)
+ Strand=Plus/Minus
+
+Query  5    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  64
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  65   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  124
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  125  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  184
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  185  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  243
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  244  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  304  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  364  TGTAA  368
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1054828
+
+
+Query= 16_23S_rRNA
+
+Length=355
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  647     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 647 bits (350),  Expect = 0.0
+ Identities = 353/354 (99%), Gaps = 1/354 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAG  355
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAG  570
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1013346
+
+
+Query= 17_23S_rRNA
+
+Length=365
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  647     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 647 bits (350),  Expect = 0.0
+ Identities = 360/364 (99%), Gaps = 3/364 (1%)
+ Strand=Plus/Minus
+
+Query  4    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  62
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  63   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  123  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  183  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  241
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  242  CTTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  301
+            | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  302  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  362  TGTA  365
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1042976
+
+
+Query= 18_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  652     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 652 bits (353),  Expect = 0.0
+ Identities = 361/364 (99%), Gaps = 3/364 (1%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  61
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  62   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  122  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  182  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  240
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  241  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  301  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  361  TGTA  364
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 19_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  660     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 660 bits (357),  Expect = 0.0
+ Identities = 362/364 (99%), Gaps = 2/364 (1%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  62
+            |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  63   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  123  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  183  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  241
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  242  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  302  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  362  TGTA  365
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 20_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  658     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 658 bits (356),  Expect = 0.0
+ Identities = 361/363 (99%), Gaps = 1/363 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTCATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTA  364
+            |||
+Sbjct  563  GTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 21_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  664     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 664 bits (359),  Expect = 0.0
+ Identities = 362/363 (99%), Gaps = 1/363 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTA  364
+            |||
+Sbjct  563  GTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 22_23S_rRNA
+
+Length=363
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  647     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 647 bits (350),  Expect = 0.0
+ Identities = 360/364 (99%), Gaps = 4/364 (1%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  61
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  62   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  122  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  182  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  240
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  241  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  301  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCG-AAGTTGAG  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  360  TGTA  363
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1037050
+
+
+Query= 2_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  656     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 656 bits (355),  Expect = 0.0
+ Identities = 362/365 (99%), Gaps = 1/365 (0%)
+ Strand=Plus/Minus
+
+Query  4    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  63
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  64   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAAC  123
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  124  TTAGCGCTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  183
+            ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  184  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  242
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  243  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  303  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  363  TGTAA  367
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 23_23S_rRNA
+
+Length=365
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  656     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 656 bits (355),  Expect = 0.0
+ Identities = 362/365 (99%), Gaps = 2/365 (1%)
+ Strand=Plus/Minus
+
+Query  2    CATGAATGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  60
+            ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  61   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  121  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  181  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  239
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  240  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  300  CTAAAAAATAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  359
+            ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  360  TGTAA  364
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1042976
+
+
+Query= 24_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  665     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 363/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  2    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  62   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  122  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  182  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  240
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  241  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  301  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  361  TGTA  364
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 25_23S_rRNA
+
+Length=354
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  641     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 641 bits (347),  Expect = 0.0
+ Identities = 352/354 (99%), Gaps = 2/354 (1%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCG-AAG  354
+            |||||||||||||||||||||||||||||||||||||||||||||||||| |||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAG  570
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1010383
+
+
+Query= 26_23S_rRNA
+
+Length=362
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  664     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 664 bits (359),  Expect = 0.0
+ Identities = 362/363 (99%), Gaps = 1/363 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  61   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  121  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  181  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  239
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  240  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  300  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  360  GTA  362
+            |||
+Sbjct  563  GTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1034087
+
+
+Query= 27_23S_rRNA
+
+Length=365
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  651     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 651 bits (352),  Expect = 0.0
+ Identities = 361/365 (99%), Gaps = 2/365 (1%)
+ Strand=Plus/Minus
+
+Query  1    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  61   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  121  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  181  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  239
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  240  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  300  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCAAAAAGTTGAG  359
+            |||||||||||||||||||||||||||||||||||||||||||||||||  || ||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAA-GTTGAG  565
+
+Query  360  TGTAA  364
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1042976
+
+
+Query= 28_23S_rRNA
+
+Length=366
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  643     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 643 bits (348),  Expect = 0.0
+ Identities = 359/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGGGCGACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            |||||||| |  ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTAA  365
+            ||||
+Sbjct  563  GTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1045939
+
+
+Query= 29_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  627     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 627 bits (339),  Expect = 0.0
+ Identities = 357/365 (98%), Gaps = 4/365 (1%)
+ Strand=Plus/Minus
+
+Query  2    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  60
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  61   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  121  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  181  TTGGCTCTTATGGAGCCATTCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  239
+            ||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  240  CCTGTGTTATCCATAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  299
+            ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  300  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGAAGGTTTGA  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||| | ||| ||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTT-GA  566
+
+Query  360  GTGTA  364
+            |||||
+Sbjct  565  GTGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 30_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  647     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 647 bits (350),  Expect = 0.0
+ Identities = 360/364 (99%), Gaps = 3/364 (1%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  61
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  62   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAAC  121
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  122  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  182  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  240
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  241  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  301  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  361  TGTA  364
+            ||||
+Sbjct  564  TGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 31_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  654     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 654 bits (354),  Expect = 0.0
+ Identities = 362/365 (99%), Gaps = 3/365 (1%)
+ Strand=Plus/Minus
+
+Query  2    CATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTG  60
+            ||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTG  866
+
+Query  61   GAGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  865  GAGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAA  806
+
+Query  121  CTTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  805  CTTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGC  746
+
+Query  181  TTTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTG  239
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  745  TTTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTG  686
+
+Query  240  GCCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCT  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  685  GCCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCT  626
+
+Query  300  CCTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGA  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  625  CCTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGA  566
+
+Query  360  GTGTA  364
+            |||||
+Sbjct  565  GTGTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 32_23S_rRNA
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  658     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 658 bits (356),  Expect = 0.0
+ Identities = 361/363 (99%), Gaps = 1/363 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTA  364
+            |||
+Sbjct  563  GTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1040013
+
+
+Query= 3_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  662     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 662 bits (358),  Expect = 0.0
+ Identities = 363/365 (99%), Gaps = 1/365 (0%)
+ Strand=Plus/Minus
+
+Query  3    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  63   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAAC  122
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  123  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  183  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  241
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  242  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  302  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  362  TGTAA  366
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 33_23S_rRNA
+
+Length=362
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  641     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 641 bits (347),  Expect = 0.0
+ Identities = 358/363 (99%), Gaps = 2/363 (1%)
+ Strand=Plus/Minus
+
+Query  2    ATGAATGGCCGAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  61
+            |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  62   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAACT  121
+            ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  122  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  182  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  240
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  241  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  301  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCG-AAGTTGAGT  359
+            |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  360  GTA  362
+            |||
+Sbjct  563  GTA  561
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1034087
+
+
+Query= 34_23S_rRNA
+
+Length=351
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  628     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 628 bits (340),  Expect = 0.0
+ Identities = 348/351 (99%), Gaps = 3/351 (1%)
+ Strand=Plus/Minus
+
+Query  1    ATGAATGGGCG-AACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  59
+            |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAAT-GGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  60   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  119
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  120  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  180  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  238
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  239  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  298
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  299  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCG  349
+            |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCG  574
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1001494
+
+
+Query= 4_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  645     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 645 bits (349),  Expect = 0.0
+ Identities = 360/365 (99%), Gaps = 1/365 (0%)
+ Strand=Plus/Minus
+
+Query  3    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  63   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAAC  122
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  123  TTAGCACTGCTAACGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  182
+            ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  183  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  241
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  242  TCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  301
+             |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  302  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCTCAAGTTGAG  361
+            |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  362  TGTAA  366
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 5_23S_rRNA
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  667     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 667 bits (361),  Expect = 0.0
+ Identities = 364/365 (99%), Gaps = 1/365 (0%)
+ Strand=Plus/Minus
+
+Query  4    CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  63
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  924  CATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGG  865
+
+Query  64   AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  123
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  864  AGGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAAC  805
+
+Query  124  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  183
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  804  TTAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCT  745
+
+Query  184  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGG  242
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  744  TTGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGG  685
+
+Query  243  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  684  CCTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTC  625
+
+Query  303  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  624  CTAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAG  565
+
+Query  363  TGTAA  367
+            |||||
+Sbjct  564  TGTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1048902
+
+
+Query= 8_23S_rRNA
+
+Length=369
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  660     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 660 bits (357),  Expect = 0.0
+ Identities = 362/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  5    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  64
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  65   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAGAGACCCCGTGGACCTTTACTACAACT  124
+            ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  125  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  184
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  185  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  243
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  244  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  304  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  364  GTAA  367
+            ||||
+Sbjct  563  GTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1054828
+
+
+Query= 9_23S_rRNA
+
+Length=366
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete ...  665     0.0  
+
+
+> AE000511.1:1473918-1476893 Helicobacter pylori 26695, complete 
+genome
+Length=2976
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 363/364 (99%), Gaps = 1/364 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923  ATGAATGGCGTAACGAGATGGGAGCTGTCTCAACCAGAGATTCAGTGAAATTGTAGTGGA  864
+
+Query  63   GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  863  GGTGAAAATTCCTCCTACCCGCGGCAAGACGGAAAGACCCCGTGGACCTTTACTACAACT  804
+
+Query  123  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  TAGCACTGCTAATGGGAATATCATGCGCAGGATAGGTGGGAGGCTTTGAAGTAAGGGCTT  744
+
+Query  183  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTG-ATGTTTCTGTTAGCTAACTGGC  241
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  743  TGGCTCTTATGGAGCCATCCTTGAGATACCACCCTTGCATGTTTCTGTTAGCTAACTGGC  684
+
+Query  242  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  683  CTGTGTTATCCACAGGCAGGACAATGCTTGGTGGGTAGTTTGACTGGGGCGGTCGCCTCC  624
+
+Query  302  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  623  TAAAAAGTAACGGAGGCTTGCAAAGGTTGGCTCATTGCGGTTGGAAATCGCAAGTTGAGT  564
+
+Query  362  GTAA  365
+            ||||
+Sbjct  563  GTAA  560
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1045939
+
+
+  Database: Ref_rrnB_23S_AE000511.1.seq.fasta
+    Posted date:  Jul 13, 2020  11:57 AM
+  Number of letters in database: 2,976
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

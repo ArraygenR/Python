@@ -1,0 +1,155 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<style>
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.gradient{
+  font-size:25px;
+  background: linear-gradient(90deg,#93bf48, #0293be, #0293be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tbl th, .tbl td {
+  padding: 4px;
+  text-align: left;
+}
+/* navbar */
+.navbar-default {
+    background-color: #337ab7;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #7FBA44;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <img class="" src="https://www.arraygen.com/images/arraygen_logo.jpg" style="width:160px; height:auto;">
+    </div>
+    <div class="col-sm-4">
+      <h5 style="color:#8a8a8a;">
+      <b class = "gradient">Arraygen Technology Pvt. Ltd.</b><br/>
+      Pune, Maharashtra, India.<br/>
+      www.arraygen.com<br/>
+    </h5>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default justify-content-center">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/result/">Results</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <form enctype="multipart/form-data" method="post" action="/submit_data/">
+            <div class="col-sm-6">
+             <div class="card">
+              <div style="padding:1px 10px;">
+                <h3>Step I </h3>
+                  <hr>
+                    <div class="form-group">
+                      <label for="name">Name *:</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="date">Date *:</label>
+                              <input type="text" placeholder="Ex : 1 Jan 2020" id="date" name ="date" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="ATPL">Project ID *:</label>
+                              <input type="text" placeholder="Ex : ATPL2020-0001" name = "ATPL" class="form-control" id="ATPL" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="gene">Gene *:</label>
+                      <input type="text" class="form-control" name="gene" id="gene" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="organism">Organism *:</label>
+                      <input type="text" class="form-control" name="organism" id="organism" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                              <label for="No_of_Sample">Number of samples *:</label>
+                              <input type="number" id="No_of_Sample" name="No_of_Sample" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+
+              </div>
+            </div>
+             </div>
+            <div class="col-sm-6">
+                 <div class="card">
+                      <div style="padding:1px 10px 10px 10px;">
+                        <h3>Step II </h3>
+                        <hr>
+                        <div class="form-group">
+                            <label for="gblast">Gene Blast File *:</label>
+                            <input type="file"  id ="gblast" name="gblast" required>
+                        </div>
+
+                        <div class="form-group">
+                             <label for="pblast">Protein Blast File:</label>
+                             <input type="file" id="pblast" name="pblast" >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pfa">Protein Fasta File:</label>
+                            <input type="file" id="pfa" name="pfa">
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+{% endblock %}
+

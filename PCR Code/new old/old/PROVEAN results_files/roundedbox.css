@@ -1,0 +1,149 @@
+.roundedbox {
+  border: 1px solid #B0B0B0;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.roundedbox * {   line-height: 12px; }
+.image-link {position: relative; top: 1px;}
+
+.right_handed {float: right;}
+.left_handed {float: left;}
+
+.roundedboxtitle {
+  border-bottom: 1px solid #B0B0B0;
+  padding: 10px 6px 8px 16px;
+  font-size: 1.2em;
+  height: 12px;
+}
+
+.roundedboxbody {
+  padding: 11px 16px 11px 16px;
+}
+
+.roundedboxbody .rss_box {
+  position: relative;
+  top: -37px;
+}
+
+.onecolumn {
+  width: 278px;
+}
+
+.twocolumn {
+  width: 600px;
+}
+
+.threecolumn {
+  width: 918px;
+}
+
+.onerow {
+  height: 195px;
+}
+
+.onerow_expanded {
+  height: 227px;
+}
+
+.tworow {
+  height: 455px;
+}
+
+.threerow {
+  height: 719px;
+}
+
+.roundtop {margin-bottom: 0px;}
+
+#project_upper_area {
+  width: 966px;
+}
+
+.roundedbox_main {
+  height: 242px;
+  width: 438px;
+  background-color:#FFFFFF;
+  border-left: 1px solid #B0B0B0;
+  border-right: 1px solid #B0B0B0;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding:11px 16px;
+  line-height: 12px;
+}
+
+.rounded_box_no_padding {
+  padding: 0px !important;
+  width: 470px !important;
+  height: 264px !important;
+}
+
+.top_dark_mini, .bottom_dark_mini { 
+  background-color: #818080; 
+  height: 15px; 
+  width: 472px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Rounded Footer Styles */
+.roundedboxfooter {
+  text-align: center;
+  width: 955px;
+  margin: 0px 5px 10px 5px; 
+}
+
+.roundedboxfooter a:hover, .roundedboxfooter a span:hover {
+  color: #ffffff;
+  background-color: #898989;
+}
+
+.roundedboxfooter a, .roundedboxfooter p, .roundedboxfooter span {
+  color: #898989;
+}
+
+.roundedboxtop {
+  height: 13px;
+  background-color: #FFFFFF;
+  border: 1px solid #B0B0B0;
+  border-bottom: 0px;
+}
+
+.roundedboxbottom {
+  height: 13px;
+  background-color: #818080;
+  border: 1px solid #B0B0B0;
+  border-top: 0px;
+}
+
+.roundedfooterbody {
+  border-left: 1px solid #B0B0B0;
+  border-right: 1px solid #B0B0B0;
+  background-color: #ffffff;
+}
+
+.roundedfootertitle {
+  border-bottom: 1px solid #B0B0B0;
+  padding: 0px 6px 8px 16px;
+  width: 929px;
+}
+
+.roundedfootercontent {
+  width: 953px;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.roundedboxicon {position: relative; top: 4px;}
+.roundedboxspacer {position: relative; top: 10px;}

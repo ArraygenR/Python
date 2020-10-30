@@ -1,0 +1,274 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<style>
+  .gradient{
+  font-size:25px;
+  background: linear-gradient(90deg,#93bf48, #0293be, #0293be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tbl th, .tbl td {
+  padding: 4px;
+  text-align: left;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <img class="" src="https://www.arraygen.com/images/arraygen_logo.jpg" style="width:250px; height:auto;">
+    </div>
+    <div class="col-sm-4">
+      <h5 >
+      <b class = "gradient">Arraygen Technology Pvt. Ltd.</b><br/>
+      Pune, Maharashtra, India.<br/>
+      www.arraygen.com<br/>
+    </h5>
+      <table class="tbl">
+        <tr>
+          <th>Client Name : </th>
+          <td> {{ Details.name}}</td>
+        </tr>
+        <tr>
+          <th> Date : </th>
+          <td> {{ Details.date}}</td>
+        </tr>
+
+        <tr>
+          <th> Project ID : </th>
+          <td> {{ Details.ATPL}} </td>
+        </tr>
+        <tr>
+          <th> Variations per Sample : </th>
+          <td> {{ TotalSample }}/{{ Details.No_of_Sample}}</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+<hr>
+  <center><h2><b class = "gradient" style="font-size: larger;">Summary</b>
+   <span id = "button_hide">
+
+
+                <a onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(myFunction());" href="#" download="PCR_Product_Variants_Results.html">
+                  <button type="button" class="btn btn-sm btn-success"><i class="fa fa-download" aria-hidden="true"></i> HTML</button>
+                </a>
+
+              </span>
+  </h2></center>
+   <hr  class="bg-primary" style="height:10px;">
+  <div class="row">
+
+    <div class="col-sm-3">
+      <b>Gene </b> : {{ Details.gene}} <br/>
+      <b>Organism </b> : {{ Details.organism}}<br/><br/>
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr class="bg-primary">
+            <th> Description  </th>
+            <th> Gene  </th>
+             {% if 'NonProtein' != status %}
+            <th> Protein  </th>
+            {% endif %}
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <th> No of Mutation : </th>
+          <td> &nbsp; {{ Mutation_g[0] }}</td>
+             {% if 'NonProtein' != status %}
+           <td> &nbsp; {{ Mutation_p[0] }}</td>
+             {% endif %}
+        </tr>
+        <tr>
+          <th> No of SNP : </th>
+          <td> &nbsp; {{ Mutation_g[1] }}</td>
+            {% if 'NonProtein' != status %}
+          <td> &nbsp; {{ Mutation_p[1] }}</td>
+          {% endif %}
+        </tr>
+        <tr>
+          <th> No of Insertion : </th>
+          <td> &nbsp; {{ Mutation_g[2] }}</td>
+            {% if 'NonProtein' != status %}
+          <td> &nbsp; {{ Mutation_p[2] }}</td>
+          {% endif %}
+        </tr>
+         <tr>
+          <th> No of Deletion : </th>
+          <td> &nbsp; {{ Mutation_g[3] }}</td>
+             {% if 'NonProtein' != status %}
+           <td> &nbsp; {{ Mutation_p[3] }}</td>
+             {% endif %}
+        </tr>
+        </tbody>
+      </table>
+    </div>
+     <div class="col-sm-6">
+       <img class="img-responsive" src="data:image/png;base64,{{ pie_chart }}" style="max-height:250px; border: 1px solid #cacaca;">
+    </div>
+    {% if 'NonProtein' != status %}
+
+    <div class="col-sm-3">
+       <img class="img-responsive" src="data:image/png;base64,{{ Mutation_p_del_or_neu }}"  style="max-height:250px;">
+    </div>
+    {% endif %}
+  </div>
+<br/>
+ {% if 'NonProtein' != status %}
+  <ul class="nav nav-tabs nav-justified">
+    <li  class="active"><a data-toggle="tab" href="#gene"><u><b>Gene</b></u></a></li>
+
+    <li><a data-toggle="tab" href="#protein"><u><b>Protein</b></u></a></li>
+
+  </ul>
+  {% endif %}
+  <br/>
+   <div class="tab-content">
+    <div id="gene" class="tab-pane fade in active">
+    <table style="width:100%" class="table table-bordered table-striped" id ="geneTable">
+      <thead>
+        <tr class="bg-primary">
+          <th colspan=" 23">
+            <h3 style="margin: 2px;">
+
+              PCR Product Variants Results
+            </h3>
+          </th>
+
+        </tr>
+        <tr class="bg-primary">
+          <th>Query</th>
+          <th>Length</th>
+          <th>Gene</th>
+          <th>Length</th>
+          <th>Score</th>
+          <th>Except</th>
+          <th>Identities</th>
+          <th>Gaps</th>
+          <th>Variation</th>
+          <th>Position</th>
+          <th>Mutation Type</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      {% for row in tblRows %}
+      {% if row.GVariation != '' %}
+        <tr>
+
+          <td>{{ row.Query }}</td>
+          <td>{{ row.QLength }}</td>
+          <td>{{ row.Gene }}</td>
+          <td>{{ row.GLength }}</td>
+          <td>{{ row.GScore }}</td>
+          <td>{{ row.GExcept }}</td>
+          <td>{{ row.GIdentities }}</td>
+          <td>{{ row.GGaps }}</td>
+          <td>{{ row.GVariation }}</td>
+          <td>{{ row.GPosition }}</td>
+          <td>{{ row.GMutation_Type }} </td>
+        </tr>
+      {% endif %}
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+     {% if 'NonProtein' != status %}
+    <div id="protein" class="tab-pane fade">
+    <table style="width:100%" class="table table-bordered table-striped" id ="proteinTable" >
+      <thead>
+        <tr class="bg-primary">
+          <th colspan=" 23">
+            <h3 style="margin: 2px;">
+              PCR Product Variants Results
+            </h3>
+          </th>
+
+        </tr>
+        <tr class="bg-primary">
+          <th>Query</th>
+          <th>Length</th>
+          <th>Protein</th>
+          <th>Length</th>
+          <th>Score</th>
+          <th>Except</th>
+          <th>Identities</th>
+          <th>Gaps</th>
+          <th>Variation</th>
+          <th>Position</th>
+          <th>Mutation_Type</th>
+          <th>PROVEAN_Input_Variants</th>
+          <th>PROVEAN Score</th>
+          <th>Prediction(cutoff = -2.5)</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for row in tblRows %}
+        {% if row.PVariation != '' %}
+            {% if 'deleterious' == row.Prediction_cutoff_2_dot_5 %}
+                  <tr class="danger">
+            {% else  %}
+                  <tr>
+            {% endif %}
+          <td>{{ row.Query }}</td>
+          <td>{{ row.QLength }}</td>
+          <td>{{ row.Protein }}</td>
+          <td>{{ row.PLength }}</td>
+          <td>{{ row.PScore }}</td>
+          <td>{{ row.PExcept }}</td>
+          <td>{{ row.PIdentities }}</td>
+          <td>{{ row.PGaps }}</td>
+          <td>{{ row.PVariation }}</td>
+          <td>{{ row.PPosition }}</td>
+          <td>{{ row.PMutation_Type }}</td>
+          <td>{{ row.PROVEAN_Input_Variants }}</td>
+          <td>{{ row.PROVEAN_Score }}</td>
+          <td>
+            {% if 'neutral' == row.Prediction_cutoff_2_dot_5 %}
+                  <b class ="text-success">
+            {% elif 'deleterious' == row.Prediction_cutoff_2_dot_5  %}
+                  <b class ="text-danger">
+            {% endif %}
+                {{ row.Prediction_cutoff_2_dot_5 }}
+            {% if 'neutral' == row.Prediction_cutoff_2_dot_5 %}
+                  </b>
+            {% elif 'deleterious' == row.Prediction_cutoff_2_dot_5  %}
+                  </b>
+            {% endif %}
+          </td>
+
+        </tr>
+        {% endif %}
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+     {% endif %}
+  </div>
+
+
+
+</div>
+
+<script>
+function myFunction() {
+var p1 = document.documentElement.innerHTML;
+return p1;
+}
+// Call the dataTables jQuery plugin
+$(document).ready(function() {
+  $('#geneTable').DataTable({
+   paging: false,
+   ordering:  false
+  });
+   $('#proteinTable').DataTable({
+   paging: false,
+   ordering:  false
+  });
+});
+</script>
+{% endblock %}
+

@@ -1,0 +1,15 @@
+## PROVEAN v1.1 output ##
+# Query sequence file:	provean_example/protein.fasta
+# Variation file:	provean_example/muta27.var
+# Protein database:	/home/arraygen/Downloads/provean/nr_db/nr
+[17:48:50] searching related sequences...
+[17:49:19] clustering subject sequences...
+# Number of clusters:	30
+# Number of supporting sequences used:	203
+[17:49:20] computing delta alignment scores...
+## PROVEAN scores ##
+# VARIATION	SCORE
+45,FG,GN	-14.599
+48,GKV,ANR	-9.834
+52,AF,KI	-4.699
+58,L,R	-5.942

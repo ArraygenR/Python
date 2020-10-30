@@ -1,0 +1,1508 @@
+<head>
+  <title>PCR Product Variants Results</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js "></script>
+</head>
+<body>
+
+<style>
+  .gradient{
+  font-size:25px;
+  background: linear-gradient(90deg,#93bf48, #0293be, #0293be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tbl th, .tbl td {
+  padding: 4px;
+  text-align: left;
+}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <img class="" src="https://www.arraygen.com/images/arraygen_logo.jpg" style="width:250px; height:auto;">
+    </div>
+    <div class="col-sm-4">
+      <h5>
+      <b class="gradient">Arraygen Technology Pvt. Ltd.</b><br>
+      Pune, Maharashtra, India.<br>
+      www.arraygen.com<br>
+    </h5>
+      <table class="tbl">
+        <tbody><tr>
+          <th>Client Name : </th>
+          <td> Dr. Aisha AlAmri</td>
+        </tr>
+        <tr>
+          <th> Date : </th>
+          <td> 13 July 2020</td>
+        </tr>
+
+        <tr>
+          <th> Project ID : </th>
+          <td> ATPL2020-0118 </td>
+        </tr>
+        <tr>
+          <th> No of Sample : </th>
+          <td> 31</td>
+        </tr>
+      </tbody></table>
+    </div>
+
+  </div>
+<hr>
+  <center><h2><b class="gradient" style="font-size: larger;">Summary</b></h2></center>
+   <hr class="bg-primary" style="height:10px;">
+  <div class="row">
+
+    <div class="col-sm-3">
+      <h4> <b>Gene </b> : 23s rRNA_B (AE000511) <br>
+      <b>Organism </b> : Helicobacter pylori 26695</h4>
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr class="bg-primary">
+            <th> Description  </th>
+            <th> Gene  </th>
+             
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <th> No of Mutation : </th>
+          <td> &nbsp; 80</td>
+             
+        </tr>
+        <tr>
+          <th> No of SNP : </th>
+          <td> &nbsp; 28</td>
+            
+        </tr>
+        <tr>
+          <th> No of Insertion : </th>
+          <td> &nbsp; 10</td>
+            
+        </tr>
+         <tr>
+          <th> No of Deletion : </th>
+          <td> &nbsp; 42</td>
+             
+        </tr>
+        </tbody>
+      </table>
+    </div>
+     <div class="col-sm-6">
+       <img class="" src="data:image/png;base64,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" style="width:auto;height:280px;border: 1px solid #cacaca;">
+    </div>
+    
+  </div>
+
+  <br>
+  <br>
+  <div class="table-responsive-lg">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr class="bg-primary">
+          <th colspan=" 23">
+            <h1>
+              PCR Product Variants Results
+            </h1>
+          </th>
+
+        </tr>
+        <tr class="bg-primary">
+          <th>Query</th>
+          <th>Length</th>
+          <th>Gene</th>
+          <th>Length</th>
+          <th>Score</th>
+          <th>Except</th>
+          <th>Identities</th>
+          <th>Gaps</th>
+          <th>Variation</th>
+          <th>Position</th>
+          <th>Mutation Type</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+
+        
+            
+                  <tr>
+            
+          <td>10_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>665 bits (360)</td>
+          <td>0.0</td>
+          <td>363/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 222</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>11_23S_rRNA</td>
+          <td>370</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>656 bits (355)</td>
+          <td>0.0</td>
+          <td>360/362 (99%)</td>
+          <td>1/362 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>898 &lt;--&gt; 99</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 223</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>12_23S_rRNA</td>
+          <td>366</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>665 bits (360)</td>
+          <td>0.0</td>
+          <td>363/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>1_23S_rRNA</td>
+          <td>352</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>632 bits (342)</td>
+          <td>0.0</td>
+          <td>347/349 (99%)</td>
+          <td>1/349 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>895 &lt;--&gt; 97</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 222</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>13_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>665 bits (360)</td>
+          <td>0.0</td>
+          <td>363/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>15_23S_rRNA</td>
+          <td>369</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>667 bits (361)</td>
+          <td>0.0</td>
+          <td>364/365 (99%)</td>
+          <td>1/365 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 223</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>16_23S_rRNA</td>
+          <td>355</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>647 bits (350)</td>
+          <td>0.0</td>
+          <td>353/354 (99%)</td>
+          <td>1/354 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>17_23S_rRNA</td>
+          <td>365</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>647 bits (350)</td>
+          <td>0.0</td>
+          <td>360/364 (99%)</td>
+          <td>3/364 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 10</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 15</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 221</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; T</td>
+          <td>685 &lt;--&gt; 243</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>18_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>652 bits (353)</td>
+          <td>0.0</td>
+          <td>361/364 (99%)</td>
+          <td>3/364 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 9</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 14</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>19_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>660 bits (357)</td>
+          <td>0.0</td>
+          <td>362/364 (99%)</td>
+          <td>2/364 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 9</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 221</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>20_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>658 bits (356)</td>
+          <td>0.0</td>
+          <td>361/363 (99%)</td>
+          <td>1/363 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; C</td>
+          <td>689 &lt;--&gt; 248</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>21_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>664 bits (359)</td>
+          <td>0.0</td>
+          <td>362/363 (99%)</td>
+          <td>1/363 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>22_23S_rRNA</td>
+          <td>363</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>647 bits (350)</td>
+          <td>0.0</td>
+          <td>360/364 (99%)</td>
+          <td>4/364 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 9</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 14</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>675 &lt;--&gt; 352</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>2_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>656 bits (355)</td>
+          <td>0.0</td>
+          <td>362/365 (99%)</td>
+          <td>1/365 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>898 &lt;--&gt; 98</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>809 &lt;--&gt; 129</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 222</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>23_23S_rRNA</td>
+          <td>365</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>656 bits (355)</td>
+          <td>0.0</td>
+          <td>362/365 (99%)</td>
+          <td>2/365 (1%)</td>
+          <td>T &lt;--&gt; -</td>
+          <td>935 &lt;--&gt; 13</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 219</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>G &lt;--&gt; A</td>
+          <td>631 &lt;--&gt; 307</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>24_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>665 bits (360)</td>
+          <td>0.0</td>
+          <td>363/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>25_23S_rRNA</td>
+          <td>354</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>641 bits (347)</td>
+          <td>0.0</td>
+          <td>352/354 (99%)</td>
+          <td>2/354 (1%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>673 &lt;--&gt; 352</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>26_23S_rRNA</td>
+          <td>362</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>664 bits (359)</td>
+          <td>0.0</td>
+          <td>362/363 (99%)</td>
+          <td>1/363 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 218</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>27_23S_rRNA</td>
+          <td>365</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>651 bits (352)</td>
+          <td>0.0</td>
+          <td>361/365 (99%)</td>
+          <td>2/365 (1%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 218</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>G &lt;--&gt; A</td>
+          <td>672 &lt;--&gt; 349</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; A</td>
+          <td>673 &lt;--&gt; 350</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>- &lt;--&gt; A</td>
+          <td>676 &lt;--&gt; 353</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>28_23S_rRNA</td>
+          <td>366</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>643 bits (348)</td>
+          <td>0.0</td>
+          <td>359/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; G</td>
+          <td>931 &lt;--&gt; 11</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; C</td>
+          <td>933 &lt;--&gt; 13</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>934 &lt;--&gt; 14</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>896 &lt;--&gt; 96</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>29_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>627 bits (339)</td>
+          <td>0.0</td>
+          <td>357/365 (98%)</td>
+          <td>4/365 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 8</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 13</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; T</td>
+          <td>763 &lt;--&gt; 200</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 219</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; T</td>
+          <td>697 &lt;--&gt; 253</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; A</td>
+          <td>675 &lt;--&gt; 351</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>677 &lt;--&gt; 353</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>- &lt;--&gt; T</td>
+          <td>681 &lt;--&gt; 357</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>30_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>647 bits (350)</td>
+          <td>0.0</td>
+          <td>360/364 (99%)</td>
+          <td>3/364 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 9</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 14</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>898 &lt;--&gt; 96</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>31_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>654 bits (354)</td>
+          <td>0.0</td>
+          <td>362/365 (99%)</td>
+          <td>3/365 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>931 &lt;--&gt; 9</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>936 &lt;--&gt; 14</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>784 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>32_23S_rRNA</td>
+          <td>364</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>658 bits (356)</td>
+          <td>0.0</td>
+          <td>361/363 (99%)</td>
+          <td>1/363 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>896 &lt;--&gt; 96</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>3_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>662 bits (358)</td>
+          <td>0.0</td>
+          <td>363/365 (99%)</td>
+          <td>1/365 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>898 &lt;--&gt; 97</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 221</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>33_23S_rRNA</td>
+          <td>362</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>641 bits (347)</td>
+          <td>0.0</td>
+          <td>358/363 (99%)</td>
+          <td>2/363 (1%)</td>
+          <td>G &lt;--&gt; C</td>
+          <td>932 &lt;--&gt; 11</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; G</td>
+          <td>933 &lt;--&gt; 12</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>A &lt;--&gt; G</td>
+          <td>896 &lt;--&gt; 95</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 219</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>673 &lt;--&gt; 351</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>34_23S_rRNA</td>
+          <td>351</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>628 bits (340)</td>
+          <td>0.0</td>
+          <td>348/351 (99%)</td>
+          <td>3/351 (1%)</td>
+          <td>- &lt;--&gt; G</td>
+          <td>929 &lt;--&gt; 7</td>
+          <td>insertion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; -</td>
+          <td>934 &lt;--&gt; 12</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 218</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>4_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>645 bits (349)</td>
+          <td>0.0</td>
+          <td>360/365 (99%)</td>
+          <td>1/365 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>898 &lt;--&gt; 97</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T &lt;--&gt; C</td>
+          <td>817 &lt;--&gt; 136</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 221</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; T</td>
+          <td>684 &lt;--&gt; 242</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>G &lt;--&gt; T</td>
+          <td>674 &lt;--&gt; 352</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>5_23S_rRNA</td>
+          <td>367</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>667 bits (361)</td>
+          <td>0.0</td>
+          <td>364/365 (99%)</td>
+          <td>1/365 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>782 &lt;--&gt; 222</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>8_23S_rRNA</td>
+          <td>369</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>660 bits (357)</td>
+          <td>0.0</td>
+          <td>362/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>A &lt;--&gt; G</td>
+          <td>896 &lt;--&gt; 98</td>
+          <td>SNP </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 222</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+            
+                  <tr>
+            
+          <td>9_23S_rRNA</td>
+          <td>366</td>
+          <td>AE000511.1</td>
+          <td>2976</td>
+          <td>665 bits (360)</td>
+          <td>0.0</td>
+          <td>363/364 (99%)</td>
+          <td>1/364 (0%)</td>
+          <td>C &lt;--&gt; -</td>
+          <td>780 &lt;--&gt; 220</td>
+          <td>deletion </td>
+          
+        </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var p1 = document.documentElement.innerHTML
+  return p1;
+}
+</script>
+
+
+</body>
