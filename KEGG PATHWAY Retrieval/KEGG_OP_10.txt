@@ -1,0 +1,610 @@
+K12605	CCR4-NOT transcription complex subunit 2	RNA degradation
+K12604	CCR4-NOT transcription complex subunit 1	RNA degradation
+K08739	DNA mismatch repair protein MLH3	Mismatch repair
+K14568	rRNA small subunit pseudouridine methyltransferase Nep1 [EC:2.1.1.260]	Ribosome biogenesis in eukaryotes
+K17362	acyl-coenzyme A thioesterase 13 [EC:3.1.2.-]	
+K02146	V-type H+-transporting ATPase subunit d	Oxidative phosphorylation;Metabolic pathways;Lysosome;Phagosome;Synaptic vesicle cycle;Collecting duct acid secretion;Vibrio cholerae infection;Epithelial cell signaling in Helicobacter pylori infection;Tuberculosis;Human papillomavirus infection;Viral carcinogenesis;Rheumatoid arthritis
+K18033	receptor-type tyrosine-protein phosphatase epsilon [EC:3.1.3.48]	
+K22071	ferredoxin-2, mitochondrial	
+K15025	probable RNA-binding protein EIF1AD	
+K02889	large subunit ribosomal protein L21e	Ribosome
+K03119	taurine dioxygenase [EC:1.14.11.17]	Taurine and hypotaurine metabolism;Sulfur metabolism
+K07466	replication factor A1	DNA replication;Nucleotide excision repair;Mismatch repair;Homologous recombination;Fanconi anemia pathway
+K23335	glucose-induced degradation protein 4	
+K01900	succinyl-CoA synthetase beta subunit [EC:6.2.1.4 6.2.1.5]	Citrate cycle (TCA cycle);Propanoate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism
+K22698	protein SEY1 [EC:3.6.5.-]	
+K19998	sec1 family domain-containing protein 1	
+K03539	ribonuclease P/MRP protein subunit RPP1 [EC:3.1.26.5]	Ribosome biogenesis in eukaryotes;RNA transport
+K07952	ADP-ribosylation factor related protein 1	
+K17768	mitochondrial import receptor subunit TOM70	
+K10876	RAD54-like protein 2 [EC:3.6.4.12]	
+K13237	2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing], peroxisomal [EC:1.3.1.124]	Peroxisome
+K11566	DASH complex subunit ASK1	
+K14791	periodic tryptophan protein 1	
+K17919	sorting nexin-4	Endocytosis
+K01507	inorganic pyrophosphatase [EC:3.6.1.1]	Oxidative phosphorylation
+K16196	eukaryotic translation initiation factor 2-alpha kinase 4 [EC:2.7.11.1]	Autophagy - yeast;Autophagy - animal;Protein processing in endoplasmic reticulum;Hepatitis C;Measles;Herpes simplex virus 1 infection
+K22762	desumoylating isopeptidase 1 [EC:3.4.-.-]	
+K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]	RNA polymerase
+K03979	GTPase [EC:3.6.5.-]	
+K10704	ubiquitin-conjugating enzyme E2 variant	Toll and Imd signaling pathway;Shigellosis
+K00015	glyoxylate reductase [EC:1.1.1.26]	Glyoxylate and dicarboxylate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K00866	choline kinase [EC:2.7.1.32]	Glycerophospholipid metabolism;Metabolic pathways
+K21850	beta-glucan synthesis-associated protein KRE6	
+K02213	cell division control protein 6	Cell cycle;Cell cycle - yeast;Meiosis - yeast
+K24364	COP9 signalosome complex subunit 12	
+K11650	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D	Thermogenesis;Hepatocellular carcinoma
+K02212	DNA replication licensing factor MCM4 [EC:3.6.4.12]	DNA replication;Cell cycle;Cell cycle - yeast;Meiosis - yeast
+K03781	catalase [EC:1.11.1.6]	Tryptophan metabolism;Glyoxylate and dicarboxylate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Carbon metabolism;MAPK signaling pathway - yeast;MAPK signaling pathway - plant;FoxO signaling pathway;Peroxisome;Longevity regulating pathway;Longevity regulating pathway - worm;Longevity regulating pathway - multiple species;Amyotrophic lateral sclerosis
+K18622	adducin	
+K09458	3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]	Fatty acid biosynthesis;Biotin metabolism;Metabolic pathways;Fatty acid metabolism
+K00820	glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]	Alanine, aspartate and glutamate metabolism;Amino sugar and nucleotide sugar metabolism;Metabolic pathways;Insulin resistance
+K23329	ATP-binding cassette, subfamily B, vacuolar membrane transporter HMT1/ACLQ	
+K11086	small nuclear ribonucleoprotein B and B'	Spliceosome;Systemic lupus erythematosus
+K17804	mitochondrial import inner membrane translocase subunit TIM44	
+K09272	structure-specific recognition protein 1	
+K08796	BR serine/threonine kinase [EC:2.7.11.1]	
+K10426	dynactin 4	Vasopressin-regulated water reabsorption;Amyotrophic lateral sclerosis;Huntington disease
+K00545	catechol O-methyltransferase [EC:2.1.1.6]	Steroid hormone biosynthesis;Tyrosine metabolism;Betalain biosynthesis;Metabolic pathways;Dopaminergic synapse
+K01100	sedoheptulose-bisphosphatase [EC:3.1.3.37]	Carbon fixation in photosynthetic organisms;Metabolic pathways;Microbial metabolism in diverse environments;Carbon metabolism
+K02990	small subunit ribosomal protein S6	Ribosome
+K15445	tRNA (guanine9-N1)-methyltransferase [EC:2.1.1.221]	
+K20352	p24 family protein delta-1	Pathogenic Escherichia coli infection
+K23887	uric acid-xanthine permease	
+K12199	vacuolar protein sorting-associated protein VTA1	Endocytosis
+K22337	trehalose 6-phosphate synthase complex regulatory subunit	Starch and sucrose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K03065	26S proteasome regulatory subunit T5	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease;Epstein-Barr virus infection
+K16739	nuclear distribution protein NudE-like 1	
+K17265	Ras GTPase-activating protein-binding protein 1 [EC:3.6.4.12 3.6.4.13]	
+K12761	carbon catabolite-derepressing protein kinase [EC:2.7.11.1]	Meiosis - yeast;Autophagy - yeast
+K19985	exocyst complex component 6	
+K18715	nucleoporin NUP159	
+K12232	E3 ubiquitin-protein ligase HECTD2 [EC:2.3.2.26]	
+K17769	mitochondrial import receptor subunit TOM22	
+K02867	large subunit ribosomal protein L11	Ribosome
+K14863	ribosome biogenesis protein	
+K03681	exosome complex component RRP40	RNA degradation
+K03259	translation initiation factor 4E	EGFR tyrosine kinase inhibitor resistance;RNA transport;HIF-1 signaling pathway;mTOR signaling pathway;PI3K-Akt signaling pathway;Longevity regulating pathway;Insulin signaling pathway
+K00670	N-alpha-acetyltransferase 30 [EC:2.3.1.256]	
+K20293	conserved oligomeric Golgi complex subunit 6	
+K23387	golgi to ER traffic protein 4	
+K02911	large subunit ribosomal protein L32	Ribosome
+K00231	protoporphyrinogen/coproporphyrinogen III oxidase [EC:1.3.3.4 1.3.3.15]	Porphyrin and chlorophyll metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K03011	DNA-directed RNA polymerase II subunit RPB3	RNA polymerase;Huntington disease
+K09189	[histone H3]-lysine4 N-trimethyltransferase MLL5 [EC:2.1.1.354]	Lysine degradation;Metabolic pathways
+K09219	scratch	
+K11294	nucleolin	Pathogenic Escherichia coli infection
+K18466	vacuolar protein sorting-associated protein 26	Endocytosis
+K12617	DNA topoisomerase 2-associated protein PAT1	RNA degradation
+K03179	4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39]	Ubiquinone and other terpenoid-quinone biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K10703	very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase [EC:4.2.1.134]	Fatty acid elongation;Biosynthesis of unsaturated fatty acids;Metabolic pathways;Biosynthesis of secondary metabolites;Fatty acid metabolism
+K09238	metallothionein expression activator	
+K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	Aminoacyl-tRNA biosynthesis
+K14170	chorismate mutase / prephenate dehydratase [EC:5.4.99.5 4.2.1.51]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]	Folate biosynthesis;Metabolic pathways
+K20465	oxysterol-binding protein-related protein 9/10/11	
+K02730	20S proteasome subunit alpha 1 [EC:3.4.25.1]	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease
+K16729	cysteine and histidine-rich domain-containing protein 1	
+K05712	3-(3-hydroxy-phenyl)propionate hydroxylase [EC:1.14.13.127]	Phenylalanine metabolism;Metabolic pathways;Microbial metabolism in diverse environments;Degradation of aromatic compounds
+K13115	coiled-coil domain-containing protein 130	
+K03126	transcription initiation factor TFIID subunit 12	Basal transcription factors
+K12603	CCR4-NOT transcription complex subunit 6 [EC:3.1.13.4]	RNA degradation
+K16938	septin 3/9/12	Bacterial invasion of epithelial cells;Shigellosis
+K00667	fatty acid synthase subunit alpha, fungi type [EC:2.3.1.86]	Fatty acid biosynthesis;Metabolic pathways;Fatty acid metabolism
+K02727	20S proteasome subunit alpha 7 [EC:3.4.25.1]	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease
+K06867	uncharacterized protein	
+K08636	phosphate-regulating neutral endopeptidase [EC:3.4.24.-]	
+K19241	engulfment and cell motility protein 3	Bacterial invasion of epithelial cells
+K22736	vacuolar iron transporter family protein	
+K23735	lipoyl(octanoyl) transferase 2 [EC:2.3.1.181]	Lipoic acid metabolism;Metabolic pathways
+K06324	spore coat protein A, manganese oxidase [EC:1.16.3.3]	
+K11353	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 13	Oxidative phosphorylation;Metabolic pathways;Thermogenesis;Retrograde endocannabinoid signaling;Non-alcoholic fatty liver disease;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Prion disease
+K07555	ATP synthase mitochondrial F1 complex assembly factor 1	
+K02964	small subunit ribosomal protein S18e	Ribosome
+K02995	small subunit ribosomal protein S8e	Ribosome
+K02961	small subunit ribosomal protein S17	Ribosome
+K10846	DNA excision repair protein ERCC-5	Nucleotide excision repair
+K10084	ER degradation enhancer, mannosidase alpha-like 1	Protein processing in endoplasmic reticulum
+K13704	abhydrolase domain-containing protein 12 [EC:3.1.1.23]	
+K04950	cyclic nucleotide gated channel alpha 3	cAMP signaling pathway;Olfactory transduction
+K15716	E3 ubiquitin-protein ligase ZSWIM2 [EC:2.3.2.27]	
+K16726	ankyrin repeat domain-containing protein 17	
+K00033	6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]	Pentose phosphate pathway;Glutathione metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism
+K10862	tyrosyl-DNA phosphodiesterase 1 [EC:3.1.4.-]	
+K01532	Cd2+-exporting ATPase [EC:7.2.2.21]	
+K02879	large subunit ribosomal protein L17	Ribosome
+K06666	general transcriptional corepressor TUP1	MAPK signaling pathway - yeast;Cell cycle - yeast
+K08741	DNA mismatch repair protein MSH5	
+K17408	small subunit ribosomal protein S29	
+K19919	cysteine-rich secretory protein	
+K00021	hydroxymethylglutaryl-CoA reductase (NADPH) [EC:1.1.1.34]	Terpenoid backbone biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;AMPK signaling pathway;Bile secretion
+K10427	dynactin 5	Vasopressin-regulated water reabsorption;Amyotrophic lateral sclerosis;Huntington disease
+K20032	palmitoyltransferase ZDHHC13/17 [EC:2.3.1.225]	
+K23039	nuclear polyadenylated RNA-binding protein NAB2	
+K14810	ATP-dependent RNA helicase DDX56/DBP9 [EC:3.6.4.13]	
+K07179	RIO kinase 2 [EC:2.7.11.1]	Ribosome biogenesis in eukaryotes
+K09701	uncharacterized protein	
+K05864	peptidyl-prolyl isomerase D [EC:5.2.1.8]	Necroptosis;Cellular senescence;Alzheimer disease;Shigellosis
+K20346	p24 family protein alpha	
+K12308	beta-galactosidase [EC:3.2.1.23]	Galactose metabolism
+K08334	beclin	Autophagy - other;Mitophagy - animal;Autophagy - yeast;Autophagy - animal;Apoptosis - multiple species;Apelin signaling pathway;Alzheimer disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Shigellosis;Kaposi sarcoma-associated herpesvirus infection
+K20353	COPII coat assembly protein SEC16	
+K10392	kinesin family member 1	
+K06659	G2/mitotic-specific cyclin 3/4	Cell cycle - yeast;Meiosis - yeast
+K03687	molecular chaperone GrpE	
+K01098	polynucleotide 5'-triphosphatase [EC:3.6.1.-]	
+K08257	mannan endo-1,6-alpha-mannosidase [EC:3.2.1.101]	
+K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	Selenocompound metabolism
+K14675	TAG lipase / lysophosphatidylethanolamine acyltransferase [EC:3.1.1.3 2.3.1.-]	Glycerolipid metabolism;Metabolic pathways
+K10864	DNA mismatch repair protein PMS1	
+K06062	histone acetyltransferase [EC:2.3.1.48]	Notch signaling pathway;Thyroid hormone signaling pathway;Human T-cell leukemia virus 1 infection;Viral carcinogenesis
+K11836	ubiquitin carboxyl-terminal hydrolase 5/13 [EC:3.4.19.12]	
+K05546	mannosyl-oligosaccharide alpha-1,3-glucosidase [EC:3.2.1.207]	N-Glycan biosynthesis;Metabolic pathways;Protein processing in endoplasmic reticulum
+K02726	20S proteasome subunit alpha 2 [EC:3.4.25.1]	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease
+K04709	Acyl-CoA-dependent ceramide synthase [EC:2.3.1.24]	Sphingolipid metabolism;Metabolic pathways
+K16339	acyl-coenzyme A thioesterase THEM4 [EC:3.1.2.2]	Fatty acid elongation;Biosynthesis of secondary metabolites;PI3K-Akt signaling pathway
+K00898	pyruvate dehydrogenase kinase 2/3/4 [EC:2.7.11.2]	
+K00227	Delta7-sterol 5-desaturase [EC:1.14.19.20]	Steroid biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K17989	L-serine/L-threonine ammonia-lyase [EC:4.3.1.17 4.3.1.19]	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Valine, leucine and isoleucine biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids
+K00766	anthranilate phosphoribosyltransferase [EC:2.4.2.18]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K00589	uroporphyrin-III C-methyltransferase [EC:2.1.1.107]	Porphyrin and chlorophyll metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K11548	kinetochore protein Nuf2	
+K14790	nucleolar protein 9	
+K09184	GATA-binding protein, other eukaryote	
+K04460	serine/threonine-protein phosphatase 5 [EC:3.1.3.16]	MAPK signaling pathway
+K14766	nucleolar protein 14	
+K12880	THO complex subunit 3	RNA transport;Spliceosome
+K16185	Ras-related GTP-binding protein A/B	Autophagy - animal;mTOR signaling pathway;Shigellosis
+K10746	exonuclease 1 [EC:3.1.-.-]	Mismatch repair
+K13872	solute carrier family 7 (L-type amino acid transporter), member 6	
+K03939	NADH dehydrogenase (ubiquinone) Fe-S protein 6	Oxidative phosphorylation;Metabolic pathways;Thermogenesis;Retrograde endocannabinoid signaling;Non-alcoholic fatty liver disease;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Prion disease
+K00852	ribokinase [EC:2.7.1.15]	Pentose phosphate pathway;Metabolic pathways
+K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	Pyrimidine metabolism;Alanine, aspartate and glutamate metabolism;Metabolic pathways
+K09419	heat shock transcription factor, other eukaryote	
+K00323	H+-translocating NAD(P) transhydrogenase [EC:1.6.1.2 7.1.1.1]	Nicotinate and nicotinamide metabolism;Metabolic pathways
+K01210	glucan 1,3-beta-glucosidase [EC:3.2.1.58]	Starch and sucrose metabolism;Metabolic pathways
+K02469	DNA gyrase subunit A [EC:5.6.2.2]	
+K00053	ketol-acid reductoisomerase [EC:1.1.1.86]	Valine, leucine and isoleucine biosynthesis;Pantothenate and CoA biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K02866	large subunit ribosomal protein L10e	Ribosome
+K00958	sulfate adenylyltransferase [EC:2.7.7.4]	Purine metabolism;Monobactam biosynthesis;Selenocompound metabolism;Sulfur metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K15285	solute carrier family 35, member E3	
+K10573	ubiquitin-conjugating enzyme E2 A [EC:2.3.2.23]	Ubiquitin mediated proteolysis
+K01886	glutaminyl-tRNA synthetase [EC:6.1.1.18]	Aminoacyl-tRNA biosynthesis;Metabolic pathways
+K04348	serine/threonine-protein phosphatase 2B catalytic subunit [EC:3.1.3.16]	MAPK signaling pathway;Calcium signaling pathway;cGMP-PKG signaling pathway;Oocyte meiosis;Cellular senescence;Wnt signaling pathway;Axon guidance;VEGF signaling pathway;Osteoclast differentiation;C-type lectin receptor signaling pathway;Natural killer cell mediated cytotoxicity;Th1 and Th2 cell differentiation;Th17 cell differentiation;T cell receptor signaling pathway;B cell receptor signaling pathway;Long-term potentiation;Glutamatergic synapse;Dopaminergic synapse;Oxytocin signaling pathway;Glucagon signaling pathway;Renin secretion;Alzheimer disease;Amyotrophic lateral sclerosis;Prion disease;Amphetamine addiction;Tuberculosis;Human cytomegalovirus infection;Human T-cell leukemia virus 1 infection;Kaposi sarcoma-associated herpesvirus infection;Human immunodeficiency virus 1 infection;PD-L1 expression and PD-1 checkpoint pathway in cancer
+K07427	docosahexaenoic acid omega-hydroxylase [EC:1.14.14.79]	
+K14793	ribosomal RNA-processing protein 9	
+K07404	6-phosphogluconolactonase [EC:3.1.1.31]	Pentose phosphate pathway;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism
+K09788	2-methylaconitate isomerase [EC:5.3.3.-]	Propanoate metabolism;Metabolic pathways
+K11227	mitogen-activated protein kinase kinase [EC:2.7.12.2]	MAPK signaling pathway - yeast;Mitophagy - yeast
+K14697	solute carrier family 30 (zinc transporter), member 10	
+K08322	L-gulonate 5-dehydrogenase [EC:1.1.1.380]	Pentose and glucuronate interconversions;Metabolic pathways
+K14784	protein CMS1	
+K12188	ESCRT-II complex subunit VPS22	Endocytosis
+K18914	adrenodoxin-NADP+ reductase [EC:1.18.1.6]	
+K12198	charged multivesicular body protein 5	Endocytosis;Necroptosis
+K17945	tropomyosin, fungi type	
+K20241	WD repeat-containing protein 44	
+K13118	protein DGCR14	
+K01895	acetyl-CoA synthetase [EC:6.2.1.1]	Glycolysis / Gluconeogenesis;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Methane metabolism;Carbon fixation pathways in prokaryotes;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism
+K19828	mitochondrial GTPase 1	
+K00036	glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363]	Pentose phosphate pathway;Glutathione metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Central carbon metabolism in cancer
+K20305	trafficking protein particle complex subunit 8	
+K01497	GTP cyclohydrolase II [EC:3.5.4.25]	Riboflavin metabolism;Folate biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Quorum sensing
+K02493	release factor glutamine methyltransferase [EC:2.1.1.297]	
+K15151	mediator of RNA polymerase II transcription subunit 10	
+K12826	splicing factor 3A subunit 2	Spliceosome
+K17738	D-arabinitol 2-dehydrogenase [EC:1.1.1.250]	Pentose and glucuronate interconversions;Metabolic pathways
+K10589	ubiquitin-protein ligase E3 C [EC:2.3.2.26]	Ubiquitin mediated proteolysis
+K01694	tryptophan synthase [EC:4.2.1.20]	Glycine, serine and threonine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K14966	host cell factor	Longevity regulating pathway - worm;Herpes simplex virus 1 infection
+K20359	PRA1 family protein 1	
+K03105	signal recognition particle subunit SRP19	Protein export
+K06688	ubiquitin-conjugating enzyme E2 C [EC:2.3.2.23]	Ubiquitin mediated proteolysis
+K00921	1-phosphatidylinositol-3-phosphate 5-kinase [EC:2.7.1.150]	Inositol phosphate metabolism;Metabolic pathways;Phosphatidylinositol signaling system;Phagosome;Regulation of actin cytoskeleton
+K01080	phosphatidate phosphatase [EC:3.1.3.4]	Glycerolipid metabolism;Glycerophospholipid metabolism;Ether lipid metabolism;Sphingolipid metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Phospholipase D signaling pathway;Fc gamma R-mediated phagocytosis;Fat digestion and absorption;Choline metabolism in cancer
+K12180	COP9 signalosome complex subunit 7	
+K01904	4-coumarate--CoA ligase [EC:6.2.1.12]	Ubiquinone and other terpenoid-quinone biosynthesis;Phenylpropanoid biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K18670	dual specificity protein kinase YAK1 [EC:2.7.12.1]	
+K02355	elongation factor G	
+K01054	acylglycerol lipase [EC:3.1.1.23]	Glycerolipid metabolism;Metabolic pathways;Thermogenesis;Retrograde endocannabinoid signaling;Regulation of lipolysis in adipocytes
+K05756	actin related protein 2/3 complex, subunit 3	Endocytosis;Fc gamma R-mediated phagocytosis;Regulation of actin cytoskeleton;Bacterial invasion of epithelial cells;Pathogenic Escherichia coli infection;Shigellosis;Salmonella infection
+K11426	[histone H3]-lysine4/36 N-trimethyltransferase SMYD [EC:2.1.1.354 2.1.1.357]	Lysine degradation;Metabolic pathways
+K12877	protein mago nashi	RNA transport;mRNA surveillance pathway;Spliceosome
+K13239	Delta3-Delta2-enoyl-CoA isomerase [EC:5.3.3.8]	Fatty acid degradation;Peroxisome
+K18203	[phosphatase 2A protein]-leucine-carboxy methyltransferase [EC:2.1.1.233]	
+K09245	transcriptional activator protein UGA3	
+K11429	[histone H4]-N-methyl-L-lysine20 N-methyltransferase [EC:2.1.1.362]	Lysine degradation;Metabolic pathways
+K13291	terminal uridylyltransferase [EC:2.7.7.52]	
+K01657	anthranilate synthase component I [EC:4.1.3.27]	Phenylalanine, tyrosine and tryptophan biosynthesis;Phenazine biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids;Quorum sensing;Biofilm formation - Pseudomonas aeruginosa
+K18703	succinate---hydroxymethylglutarate CoA-transferase [EC:2.8.3.13]	
+K24029	prolyl 3-hydroxylase /prolyl 3,4-dihydroxylase [EC:1.14.11.-]	
+K03510	DNA polymerase iota [EC:2.7.7.7]	Fanconi anemia pathway
+K17887	sorting nexin-25	
+K10630	RanBP-type and C3HC4-type zinc finger-containing protein 1 [EC:2.3.2.31]	Necroptosis;NOD-like receptor signaling pathway;Shigellosis
+K17978	nuclear migration protein NUM1	
+K00587	protein-S-isoprenylcysteine O-methyltransferase [EC:2.1.1.100]	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites
+K13247	L-gulonate 3-dehydrogenase [EC:1.1.1.45]	Pentose and glucuronate interconversions;Metabolic pathways
+K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Methane metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids
+K17361	acyl-coenzyme A thioesterase 9 [EC:3.1.2.-]	
+K23966	cyclin L	
+K03094	S-phase kinase-associated protein 1	Cell cycle;Cell cycle - yeast;Oocyte meiosis;Ubiquitin mediated proteolysis;Protein processing in endoplasmic reticulum;Wnt signaling pathway;Hedgehog signaling pathway - fly;TGF-beta signaling pathway;Circadian rhythm;Shigellosis;Salmonella infection;Human immunodeficiency virus 1 infection;Pathways in cancer
+K05607	methylglutaconyl-CoA hydratase [EC:4.2.1.18]	Valine, leucine and isoleucine degradation;Metabolic pathways
+K09510	DnaJ homolog subfamily B member 4	
+K10245	fatty acid elongase 2 [EC:2.3.1.199]	Fatty acid elongation;Biosynthesis of unsaturated fatty acids;Metabolic pathways;Biosynthesis of secondary metabolites;Fatty acid metabolism
+K01228	mannosyl-oligosaccharide glucosidase [EC:3.2.1.106]	N-Glycan biosynthesis;Metabolic pathways;Protein processing in endoplasmic reticulum
+K13117	ATP-dependent RNA helicase DDX35 [EC:3.6.4.13]	
+K17413	small subunit ribosomal protein S35	
+K17806	mitochondrial import inner membrane translocase subunit TIM23	
+K07077	uncharacterized protein	
+K15589	aryl hydrocarbon receptor nuclear translocator 2	Pathways in cancer;Transcriptional misregulation in cancer;Renal cell carcinoma
+K19760	dynein assembly factor with WDR repeat domains 1	
+K15323	tRNA-splicing endonuclease subunit Sen34 [EC:4.6.1.16]	
+K02918	large subunit ribosomal protein L35e	Ribosome
+K03131	transcription initiation factor TFIID subunit 6	Basal transcription factors
+K21456	glutathione synthase [EC:6.3.2.3]	Cysteine and methionine metabolism;Glutathione metabolism;Metabolic pathways;Ferroptosis
+K08656	dipeptidyl-peptidase 9 [EC:3.4.14.5]	
+K02739	20S proteasome subunit beta 2 [EC:3.4.25.1]	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease
+K12879	THO complex subunit 2	RNA transport;Spliceosome
+K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	Glycine, serine and threonine metabolism;Monobactam biosynthesis;Cysteine and methionine metabolism;Lysine biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K11866	STAM-binding protein [EC:3.4.19.12]	Endocytosis
+K02891	large subunit ribosomal protein L22e	Ribosome
+K01265	methionyl aminopeptidase [EC:3.4.11.18]	
+K03783	purine-nucleoside phosphorylase [EC:2.4.2.1]	Purine metabolism;Pyrimidine metabolism;Nicotinate and nicotinamide metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K20793	N-alpha-acetyltransferase 50 [EC:2.3.1.258]	
+K15118	solute carrier family 25, member 38	
+K03145	transcription elongation factor S-II	
+K16944	septin 7	Shigellosis
+K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]	Glycine, serine and threonine metabolism;Cyanoamino acid metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate;Methane metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids;Antifolate resistance
+K06944	uncharacterized protein	
+K14429	solute carrier family 12 (potassium/chloride transporters), member 9	
+K03848	alpha-1,3-glucosyltransferase [EC:2.4.1.267]	N-Glycan biosynthesis;Metabolic pathways
+K11974	E3 ubiquitin-protein ligase RNF31 [EC:2.3.2.31]	Necroptosis;NOD-like receptor signaling pathway;Shigellosis
+K12306	MFS transporter, FLVCR family, MFS-domain-containing protein 7	
+K10866	DNA repair protein RAD50 [EC:3.6.-.-]	Homologous recombination;Non-homologous end-joining;Cellular senescence
+K15153	mediator of RNA polymerase II transcription subunit 31	
+K03108	signal recognition particle subunit SRP72	Protein export
+K02319	DNA polymerase, archaea type [EC:2.7.7.7]	DNA replication
+K02975	small subunit ribosomal protein S25e	Ribosome
+K05292	GPI-anchor transamidase subunit T	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis;Metabolic pathways
+K10534	nitrate reductase (NAD(P)H) [EC:1.7.1.1 1.7.1.2 1.7.1.3]	Nitrogen metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K07241	nickel/cobalt transporter (NiCoT) family protein	
+K12609	CCR4-NOT transcriptional complex subunit CAF120	RNA degradation
+K17081	prohibitin 2	
+K09880	enolase-phosphatase E1 [EC:3.1.3.77]	Cysteine and methionine metabolism;Metabolic pathways
+K07223	porphyrinogen peroxidase [EC:1.11.1.-]	
+K18158	nuclear control of ATPase protein 2	
+K01937	CTP synthase [EC:6.3.4.2]	Pyrimidine metabolism;Metabolic pathways
+K03177	tRNA pseudouridine55 synthase [EC:5.4.99.25]	
+K07955	ADP-ribosylation factor-like protein 8	
+K02332	DNA polymerase gamma 1 [EC:2.7.7.7]	Mitophagy - yeast
+K17268	coatomer subunit epsilon	
+K11569	DASH complex subunit DAD4	
+K21613	N-acetylcysteine deacetylase [EC:3.5.1.-]	
+K14838	nucleolar protein 15	
+K01810	glucose-6-phosphate isomerase [EC:5.3.1.9]	Glycolysis / Gluconeogenesis;Pentose phosphate pathway;Starch and sucrose metabolism;Amino sugar and nucleotide sugar metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism
+K15559	regulator of Ty1 transposition protein 103	
+K07443	methylated-DNA-protein-cysteine methyltransferase related protein	
+K10380	ankyrin	Toll and Imd signaling pathway;Proteoglycans in cancer
+K17292	tubulin-specific chaperone A	
+K22723	inositol phosphorylceramide synthase catalytic subunit [EC:2.7.1.227]	
+K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]	
+K01551	arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]	
+K01809	mannose-6-phosphate isomerase [EC:5.3.1.8]	Fructose and mannose metabolism;Amino sugar and nucleotide sugar metabolism;O-Antigen nucleotide sugar biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K01939	adenylosuccinate synthase [EC:6.3.4.4]	Purine metabolism;Alanine, aspartate and glutamate metabolism;Metabolic pathways
+K23499	required for meiotic nuclear division protein 1	
+K02902	large subunit ribosomal protein L28	Ribosome
+K12878	THO complex subunit 1	RNA transport;Spliceosome
+K15068	protein DIA2	
+K15196	transcription factor IIIB 90 kDa subunit	
+K08490	syntaxin 5	SNARE interactions in vesicular transport
+K23362	ethanolamine phosphate phosphodiesterase [EC:3.1.-.-]	
+K11233	osomolarity two-component system, response regulator SSK1	Two-component system;MAPK signaling pathway - yeast;Mitophagy - yeast
+K12857	Prp8 binding protein	Spliceosome
+K14806	ATP-dependent RNA helicase DDX31/DBP7 [EC:3.6.4.13]	
+K02943	large subunit ribosomal protein LP2	Ribosome
+K00003	homoserine dehydrogenase [EC:1.1.1.3]	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Lysine biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Biosynthesis of amino acids
+K01501	nitrilase [EC:3.5.5.1]	Tryptophan metabolism;Cyanoamino acid metabolism;Aminobenzoate degradation;Styrene degradation;Nitrogen metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K17496	mitochondrial import inner membrane translocase subunit TIM50	
+K13127	RING finger protein 113A	
+K10256	omega-6 fatty acid desaturase / acyl-lipid omega-6 desaturase (Delta-12 desaturase) [EC:1.14.19.6 1.14.19.22]	Biosynthesis of unsaturated fatty acids;Metabolic pathways;Fatty acid metabolism
+K01785	aldose 1-epimerase [EC:5.1.3.3]	Glycolysis / Gluconeogenesis;Galactose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K21618	(R)-2-hydroxyglutarate---pyruvate transhydrogenase [EC:1.1.99.40]	Pyruvate metabolism;Metabolic pathways
+K12614	ATP-dependent RNA helicase DDX6/DHH1 [EC:3.6.4.13]	RNA degradation
+K15731	carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase [EC:3.1.3.16]	
+K01466	allantoinase [EC:3.5.2.5]	Purine metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	Peroxisome
+K03953	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 9	Oxidative phosphorylation;Metabolic pathways;Thermogenesis;Retrograde endocannabinoid signaling;Non-alcoholic fatty liver disease;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Prion disease
+K12590	exosome complex component RRP46	RNA degradation
+K12859	U5 snRNP protein, DIM1 family	Spliceosome
+K17777	mitochondrial import inner membrane translocase subunit TIM9	
+K03240	translation initiation factor eIF-2B subunit epsilon	RNA transport;Herpes simplex virus 1 infection
+K01626	3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids;Quorum sensing
+K01198	xylan 1,4-beta-xylosidase [EC:3.2.1.37]	Amino sugar and nucleotide sugar metabolism;Metabolic pathways
+K08229	MFS transporter, LAT3 family, solute carrier family 43, member 2	
+K09241	transcriptional regulatory protein GAL4	
+K20125	F-BAR and double SH3 domains protein	
+K04409	p21-activated kinase 1 [EC:2.7.11.1]	MAPK signaling pathway;MAPK signaling pathway - yeast;ErbB signaling pathway;Ras signaling pathway;cAMP signaling pathway;Chemokine signaling pathway;Axon guidance;Hippo signaling pathway - multiple species;Focal adhesion;C-type lectin receptor signaling pathway;Natural killer cell mediated cytotoxicity;T cell receptor signaling pathway;Fc gamma R-mediated phagocytosis;Regulation of actin cytoskeleton;Epithelial cell signaling in Helicobacter pylori infection;Pathogenic Escherichia coli infection;Salmonella infection;Human immunodeficiency virus 1 infection;Proteoglycans in cancer;Renal cell carcinoma
+K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]	Thiamine metabolism;Metabolic pathways
+K14708	solute carrier family 26 (sodium-independent sulfate anion transporter), member 11	
+K24175	MFS transporter, MFS domain-containing protein family, molybdate-anion transporter	
+K22140	dynamin-like GTPase MGM1, mitochondrial	
+K19785	nicotinamide-nucleotide adenylyltransferase [EC:2.7.7.1]	Nicotinate and nicotinamide metabolism;Metabolic pathways
+K15152	mediator of RNA polymerase II transcription subunit 21	
+K00863	triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing) [EC:2.7.1.28 2.7.1.29 4.6.1.15]	Fructose and mannose metabolism;Glycerolipid metabolism;Methane metabolism;Metabolic pathways;Microbial metabolism in diverse environments;Carbon metabolism;RIG-I-like receptor signaling pathway
+K15128	mediator of RNA polymerase II transcription subunit 6	
+K22939	immediate early response 3-interacting protein 1	
+K11205	glutamate--cysteine ligase regulatory subunit	Cysteine and methionine metabolism;Glutathione metabolism;Metabolic pathways;Ferroptosis
+K02540	DNA replication licensing factor MCM2 [EC:3.6.4.12]	DNA replication;Cell cycle;Cell cycle - yeast;Meiosis - yeast
+K05283	glucosaminylphosphatidylinositol acyltransferase [EC:2.3.-.-]	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis;Metabolic pathways
+K01224	arabinogalactan endo-1,4-beta-galactosidase [EC:3.2.1.89]	
+K07973	guanine nucleotide-binding protein subunit gamma, other	MAPK signaling pathway - yeast
+K06681	Gdp/GTP exchange factor required for growth at low temperatures	Cell cycle - yeast
+K07904	Ras-related protein Rab-11A	Endocytosis;Endocrine and other factor-regulated calcium reabsorption;Vasopressin-regulated water reabsorption;Pancreatic secretion;Influenza A
+K19860	guanine nucleotide-binding protein alpha-1 subunit	MAPK signaling pathway - yeast
+K00469	inositol oxygenase [EC:1.13.99.1]	Ascorbate and aldarate metabolism;Inositol phosphate metabolism;Metabolic pathways
+K13282	cyanophycinase [EC:3.4.15.6]	
+K14861	nucleolar pre-ribosomal-associated protein 1	
+K11362	transcriptional coactivator HFI1/ADA1	
+K01052	lysosomal acid lipase/cholesteryl ester hydrolase [EC:3.1.1.13]	Steroid biosynthesis;Lysosome;Cholesterol metabolism
+K01852	lanosterol synthase [EC:5.4.99.7]	Steroid biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K10089	cation-dependent mannose-6-phosphate receptor	Lysosome;Phagosome;Salmonella infection
+K21767	tubulin-specific chaperone D	
+K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]	Valine, leucine and isoleucine biosynthesis;C5-Branched dibasic acid metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K13103	tuftelin-interacting protein 11	
+K00211	prephenate dehydrogenase (NADP+) [EC:1.3.1.13]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K00750	glycogenin [EC:2.4.1.186]	Starch and sucrose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K07441	beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.141]	N-Glycan biosynthesis;Various types of N-glycan biosynthesis;Metabolic pathways
+K12345	3-oxo-5-alpha-steroid 4-dehydrogenase 3 / polyprenol reductase [EC:1.3.1.22 1.3.1.94]	Steroid hormone biosynthesis;N-Glycan biosynthesis
+K08744	cardiolipin synthase (CMP-forming) [EC:2.7.8.41]	Glycerophospholipid metabolism;Metabolic pathways
+K09850	Ras association domain-containing protein 1	Ras signaling pathway;Hippo signaling pathway;Hippo signaling pathway - multiple species;Pathways in cancer;MicroRNAs in cancer;Bladder cancer;Non-small cell lung cancer
+K10599	pre-mRNA-processing factor 19 [EC:2.3.2.27]	Spliceosome;Ubiquitin mediated proteolysis
+K13094	RNA-binding protein 5/10	
+K15305	vacuole morphology and inheritance protein 14	Human T-cell leukemia virus 1 infection;Viral carcinogenesis
+K02555	M-phase inducer tyrosine phosphatase [EC:3.1.3.48]	MAPK signaling pathway - yeast;Cell cycle - yeast
+K00079	carbonyl reductase 1 [EC:1.1.1.184 1.1.1.189 1.1.1.197]	Arachidonic acid metabolism;Folate biosynthesis;Metabolism of xenobiotics by cytochrome P450;Metabolic pathways;Chemical carcinogenesis
+K03014	DNA-directed RNA polymerases I, II, and III subunit RPABC2	RNA polymerase;Cytosolic DNA-sensing pathway;Huntington disease
+K02133	F-type H+-transporting ATPase subunit beta [EC:7.1.2.2]	Oxidative phosphorylation;Metabolic pathways;Thermogenesis;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Prion disease
+K11971	E3 ubiquitin-protein ligase RNF14 [EC:2.3.2.31]	
+K15923	alpha-L-fucosidase 2 [EC:3.2.1.51]	Other glycan degradation
+K15001	cytochrome P450 family 4 [EC:1.14.-.-]	
+K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	Valine, leucine and isoleucine degradation;beta-Alanine metabolism;Inositol phosphate metabolism;Propanoate metabolism;Metabolic pathways;Carbon metabolism
+K14729	multifunctional beta-oxidation protein [EC:4.2.1.- 1.1.1.-]	beta-Alanine metabolism;Propanoate metabolism;Metabolic pathways;Carbon metabolism
+K13667	EGF-domain serine glucosyl/xylosyltransferase [EC:2.4.1.376 2.4.2.63]	Other types of O-glycan biosynthesis
+K03935	NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2]	Oxidative phosphorylation;Metabolic pathways;Thermogenesis;Retrograde endocannabinoid signaling;Non-alcoholic fatty liver disease;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Prion disease
+K22193	golgi pH regulator	
+K02210	DNA replication licensing factor MCM7 [EC:3.6.4.12]	DNA replication;Cell cycle;Cell cycle - yeast;Meiosis - yeast
+K10277	lysine-specific demethylase 8 [EC:1.14.11.27]	
+K06641	serine/threonine-protein kinase CHEK2 [EC:2.7.11.1]	Cell cycle;Cell cycle - yeast;p53 signaling pathway;Cellular senescence;Human T-cell leukemia virus 1 infection
+K23469	G2/mitotic-specific cyclin 2	MAPK signaling pathway - yeast;Cell cycle - yeast
+K11599	proteasome maturation protein	Proteasome
+K12472	epidermal growth factor receptor substrate 15	Endocytosis
+K12862	pleiotropic regulator 1	Spliceosome
+K02603	origin recognition complex subunit 1	Cell cycle;Cell cycle - yeast;Meiosis - yeast
+K07442	tRNA (adenine57-N1/adenine58-N1)-methyltransferase catalytic subunit [EC:2.1.1.219 2.1.1.220]	
+K17278	membrane-associated progesterone receptor component	
+K01621	xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]	Pentose phosphate pathway;Carbon fixation in photosynthetic organisms;Metabolic pathways;Microbial metabolism in diverse environments
+K00287	dihydrofolate reductase [EC:1.5.1.3]	One carbon pool by folate;Folate biosynthesis;Metabolic pathways;Antifolate resistance
+K14001	nucleotide exchange factor SIL1	Protein processing in endoplasmic reticulum
+K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	Purine metabolism;Drug metabolism - other enzymes;Metabolic pathways
+K15161	cyclin-C	
+K01655	homocitrate synthase [EC:2.3.3.14]	Lysine biosynthesis;Pyruvate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K09967	uncharacterized protein	
+K14358	secernin	
+K09553	stress-induced-phosphoprotein 1	Prion disease
+K20368	protein cornichon	
+K07556	ATP synthase mitochondrial F1 complex assembly factor 2	
+K21543	transcription factor CRZ1	
+K13813	syntaxin 12/13	Phagosome
+K17765	mitochondrial distribution and morphology protein 12	Mitophagy - yeast
+K20363	protein YIPF5/7	
+K05285	GPI ethanolamine phosphate transferase 1 [EC:2.7.-.-]	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis;Metabolic pathways
+K14839	nucleolar protein 16	
+K09660	mannose-P-dolichol utilization defect 1	
+K02148	V-type H+-transporting ATPase subunit C	Oxidative phosphorylation;Metabolic pathways;Phagosome;mTOR signaling pathway;Synaptic vesicle cycle;Collecting duct acid secretion;Vibrio cholerae infection;Epithelial cell signaling in Helicobacter pylori infection;Human papillomavirus infection;Rheumatoid arthritis
+K23787	E3 ubiquitin-protein ligase DMA1/2 [EC:2.3.2.27]	
+K13289	cathepsin A (carboxypeptidase C) [EC:3.4.16.5]	Lysosome;Renin-angiotensin system
+K11484	histone deacetylase HOS3 [EC:3.5.1.98]	
+K23503	sideroflexin-5	
+K12601	superkiller protein 8	RNA degradation
+K03978	GTP-binding protein	
+K12662	U4/U6 small nuclear ribonucleoprotein PRP4	Spliceosome
+K11853	ubiquitin carboxyl-terminal hydrolase 34 [EC:3.4.19.12]	
+K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	Aminoacyl-tRNA biosynthesis
+K00914	phosphatidylinositol 3-kinase [EC:2.7.1.137]	Inositol phosphate metabolism;Metabolic pathways;Phosphatidylinositol signaling system;Autophagy - other;Autophagy - yeast;Autophagy - animal;Phagosome;Apelin signaling pathway;Alzheimer disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Shigellosis;Salmonella infection;Tuberculosis;Kaposi sarcoma-associated herpesvirus infection
+K07238	zinc transporter, ZIP family	
+K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	Two-component system
+K14555	U3 small nucleolar RNA-associated protein 13	Ribosome biogenesis in eukaryotes
+K24185	kinesin family member 21	
+K04708	3-dehydrosphinganine reductase [EC:1.1.1.102]	Sphingolipid metabolism;Metabolic pathways
+K05540	tRNA-dihydrouridine synthase B [EC:1.-.-.-]	
+K04554	ubiquitin-conjugating enzyme E2 J2 [EC:2.3.2.23]	Ubiquitin mediated proteolysis;Protein processing in endoplasmic reticulum;Parkinson disease
+K01575	acetolactate decarboxylase [EC:4.1.1.5]	Butanoate metabolism;C5-Branched dibasic acid metabolism
+K11567	DASH complex subunit DAD2	
+K17606	immunoglobulin-binding protein 1	Autophagy - other;Autophagy - yeast;Autophagy - animal
+K20299	vacuolar protein sorting-associated protein 53	
+K00943	dTMP kinase [EC:2.7.4.9]	Pyrimidine metabolism;Metabolic pathways
+K18097	glycerol 2-dehydrogenase (NADP+) [EC:1.1.1.156]	Glycerolipid metabolism;Metabolic pathways
+K02950	small subunit ribosomal protein S12	Ribosome
+K10751	chromatin assembly factor 1 subunit B	
+K14549	U3 small nucleolar RNA-associated protein 15	Ribosome biogenesis in eukaryotes
+K00817	histidinol-phosphate aminotransferase [EC:2.6.1.9]	Histidine metabolism;Tyrosine metabolism;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Novobiocin biosynthesis;Tropane, piperidine and pyridine alkaloid biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K22746	anamorsin	
+K01061	carboxymethylenebutenolidase [EC:3.1.1.45]	Chlorocyclohexane and chlorobenzene degradation;Fluorobenzoate degradation;Toluene degradation;Metabolic pathways;Microbial metabolism in diverse environments
+K00767	nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]	Nicotinate and nicotinamide metabolism;Metabolic pathways
+K09648	mitochondrial inner membrane protease subunit 2 [EC:3.4.21.-]	Protein export
+K10967	alpha 1,2-mannosyltransferase [EC:2.4.1.-]	Other types of O-glycan biosynthesis
+K11647	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 2/4 [EC:3.6.4.-]	Thermogenesis;Hepatocellular carcinoma
+K12870	pre-mRNA-splicing factor ISY1	Spliceosome
+K14007	protein transport protein SEC24	Protein processing in endoplasmic reticulum;Pathogenic Escherichia coli infection
+K10082	lectin, mannose-binding 2	Protein processing in endoplasmic reticulum
+K13024	inositol-hexakisphosphate/diphosphoinositol-pentakisphosphate 1-kinase [EC:2.7.4.24]	Phosphatidylinositol signaling system
+K04070	putative pyruvate formate lyase activating enzyme [EC:1.97.1.4]	
+K03353	anaphase-promoting complex subunit 6	Cell cycle;Cell cycle - yeast;Meiosis - yeast;Oocyte meiosis;Ubiquitin mediated proteolysis;Progesterone-mediated oocyte maturation;Human T-cell leukemia virus 1 infection
+K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]	Valine, leucine and isoleucine biosynthesis;C5-Branched dibasic acid metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K07953	GTP-binding protein SAR1 [EC:3.6.5.-]	Protein processing in endoplasmic reticulum;Legionellosis
+K03252	translation initiation factor 3 subunit C	RNA transport
+K06617	raffinose synthase [EC:2.4.1.82]	Galactose metabolism;Metabolic pathways
+K14779	ATP-dependent RNA helicase DDX52/ROK1 [EC:3.6.4.13]	
+K08059	interferon, gamma-inducible protein 30	Antigen processing and presentation
+K18985	engulfment and cell motility protein 2	Bacterial invasion of epithelial cells;Shigellosis;Salmonella infection;Yersinia infection
+K18164	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 7	Thermogenesis
+K01940	argininosuccinate synthase [EC:6.3.4.5]	Arginine biosynthesis;Alanine, aspartate and glutamate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids;Fluid shear stress and atherosclerosis
+K00162	pyruvate dehydrogenase E1 component beta subunit [EC:1.2.4.1]	Glycolysis / Gluconeogenesis;Citrate cycle (TCA cycle);Pyruvate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;HIF-1 signaling pathway;Glucagon signaling pathway;Central carbon metabolism in cancer
+K07200	5'-AMP-activated protein kinase, regulatory gamma subunit	FoxO signaling pathway;AMPK signaling pathway;Longevity regulating pathway;Longevity regulating pathway - multiple species;Apelin signaling pathway;Tight junction;Circadian rhythm;Thermogenesis;Insulin signaling pathway;Adipocytokine signaling pathway;Oxytocin signaling pathway;Glucagon signaling pathway;Insulin resistance;Non-alcoholic fatty liver disease;Hypertrophic cardiomyopathy
+K07422	cytochrome P450 family 2 subfamily U polypeptide 1	Arachidonic acid metabolism;Metabolic pathways
+K07888	Ras-related protein Rab-5B	Ras signaling pathway;Endocytosis;Phagosome;Vasopressin-regulated water reabsorption;Salmonella infection;Amoebiasis;Tuberculosis
+K01599	uroporphyrinogen decarboxylase [EC:4.1.1.37]	Porphyrin and chlorophyll metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K12841	calcium homeostasis endoplasmic reticulum protein	Spliceosome
+K15356	GDP-mannose transporter	
+K00512	steroid 17alpha-monooxygenase / 17alpha-hydroxyprogesterone deacetylase [EC:1.14.14.19 1.14.14.32]	Steroid hormone biosynthesis;Metabolic pathways;Ovarian steroidogenesis;Prolactin signaling pathway;Cortisol synthesis and secretion;Cushing syndrome
+K04441	p38 MAP kinase [EC:2.7.11.24]	Endocrine resistance;MAPK signaling pathway;MAPK signaling pathway - yeast;MAPK signaling pathway - fly;Rap1 signaling pathway;FoxO signaling pathway;Sphingolipid signaling pathway;Oocyte meiosis;Mitophagy - yeast;Longevity regulating pathway - worm;Cellular senescence;Adrenergic signaling in cardiomyocytes;Axon regeneration;VEGF signaling pathway;Osteoclast differentiation;Signaling pathways regulating pluripotency of stem cells;Platelet activation;Toll-like receptor signaling pathway;NOD-like receptor signaling pathway;RIG-I-like receptor signaling pathway;Toll and Imd signaling pathway;C-type lectin receptor signaling pathway;IL-17 signaling pathway;Th1 and Th2 cell differentiation;Th17 cell differentiation;T cell receptor signaling pathway;Fc epsilon RI signaling pathway;TNF signaling pathway;Leukocyte transendothelial migration;Thermogenesis;Neurotrophin signaling pathway;Retrograde endocannabinoid signaling;Dopaminergic synapse;Inflammatory mediator regulation of TRP channels;GnRH signaling pathway;Progesterone-mediated oocyte maturation;Prolactin signaling pathway;Relaxin signaling pathway;AGE-RAGE signaling pathway in diabetic complications;Growth hormone synthesis, secretion and action;Amyotrophic lateral sclerosis;Prion disease;Epithelial cell signaling in Helicobacter pylori infection;Pathogenic Escherichia coli infection;Shigellosis;Salmonella infection;Pertussis;Yersinia infection;Leishmaniasis;Chagas disease;Toxoplasmosis;Tuberculosis;Hepatitis B;Human cytomegalovirus infection;Kaposi sarcoma-associated herpesvirus infection;Epstein-Barr virus infection;Human immunodeficiency virus 1 infection;Proteoglycans in cancer;PD-L1 expression and PD-1 checkpoint pathway in cancer;Fluid shear stress and atherosclerosis
+K01082	3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7]	Sulfur metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K19176	fatty acid amide hydrolase 2 [EC:3.5.1.99]	
+K15326	tRNA-splicing endonuclease subunit Sen54	
+K01301	N-acetylated-alpha-linked acidic dipeptidase [EC:3.4.17.21]	
+K14835	25S rRNA (cytosine2870-C5)-methyltransferase [EC:2.1.1.310]	
+K03032	26S proteasome regulatory subunit N2	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease;Epstein-Barr virus infection
+K03850	alpha-1,2-glucosyltransferase [EC:2.4.1.256]	N-Glycan biosynthesis;Metabolic pathways
+K18334	L-fuconate dehydratase [EC:4.2.1.68]	Fructose and mannose metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K02906	large subunit ribosomal protein L3	Ribosome
+K00831	phosphoserine aminotransferase [EC:2.6.1.52]	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Methane metabolism;Vitamin B6 metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids
+K10768	alkylated DNA repair protein alkB homolog 6 [EC:1.14.11.-]	
+K18749	protein LSM14	
+K14963	COMPASS component SWD3	Cushing syndrome
+K00688	glycogen phosphorylase [EC:2.4.1.1]	Starch and sucrose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Biofilm formation - Escherichia coli;Necroptosis;Insulin signaling pathway;Glucagon signaling pathway;Insulin resistance
+K01916	NAD+ synthase [EC:6.3.1.5]	Nicotinate and nicotinamide metabolism;Metabolic pathways
+K04627	pheromone a factor receptor	MAPK signaling pathway - yeast
+K11427	[histone H3]-lysine79 N-trimethyltransferase [EC:2.1.1.360]	Lysine degradation;Metabolic pathways;Transcriptional misregulation in cancer
+K03671	thioredoxin 1	NOD-like receptor signaling pathway;Parkinson disease;Salmonella infection;Fluid shear stress and atherosclerosis
+K09043	AP-1-like transcription factor	
+K09810	lipoprotein-releasing system ATP-binding protein [EC:3.6.3.-]	ABC transporters
+K22943	protein YIPF6	
+K01648	ATP citrate (pro-S)-lyase [EC:2.3.3.8]	Citrate cycle (TCA cycle);Carbon fixation pathways in prokaryotes;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K00720	ceramide glucosyltransferase [EC:2.4.1.80]	Sphingolipid metabolism;Metabolic pathways
+K05034	solute carrier family 6 (neurotransmitter transporter, GABA) member 1	Synaptic vesicle cycle;GABAergic synapse
+K11322	enhancer of polycomb-like protein	
+K07252	dolichyldiphosphatase [EC:3.6.1.43]	N-Glycan biosynthesis
+K07937	ADP-ribosylation factor 1/2	Phospholipase D signaling pathway;Endocytosis;Vibrio cholerae infection;Pathogenic Escherichia coli infection;Shigellosis;Salmonella infection;Legionellosis
+K00456	cysteine dioxygenase [EC:1.13.11.20]	Cysteine and methionine metabolism;Taurine and hypotaurine metabolism;Metabolic pathways
+K11811	arsenical resistance protein ArsH	
+K17656	mitochondrial splicing suppressor protein 51	
+K05906	prenylcysteine oxidase / farnesylcysteine lyase [EC:1.8.3.5 1.8.3.6]	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites
+K03255	protein TIF31	
+K20302	trafficking protein particle complex subunit 3	
+K14820	ribosome biogenesis protein BRX1	
+K14765	U3 small nucleolar ribonucleoprotein protein LCP5	
+K22069	LYR motif-containing protein 4	
+K15175	parafibromin	
+K14405	pre-mRNA 3'-end-processing factor FIP1	mRNA surveillance pathway
+K01568	pyruvate decarboxylase [EC:4.1.1.1]	Glycolysis / Gluconeogenesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K10885	ATP-dependent DNA helicase 2 subunit 2	Non-homologous end-joining
+K15109	solute carrier family 25 (mitochondrial carnitine/acylcarnitine transporter), member 20/29	Thermogenesis
+K14797	essential nuclear protein 1	
+K01792	glucose-6-phosphate 1-epimerase [EC:5.1.3.15]	Glycolysis / Gluconeogenesis;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments
+K12836	splicing factor U2AF 35 kDa subunit	Spliceosome;Shigellosis
+K01134	arylsulfatase A [EC:3.1.6.8]	Sphingolipid metabolism;Lysosome
+K08874	transformation/transcription domain-associated protein	Human T-cell leukemia virus 1 infection
+K00849	galactokinase [EC:2.7.1.6]	Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Metabolic pathways
+K06911	quercetin 2,3-dioxygenase [EC:1.13.11.24]	
+K00693	glycogen synthase [EC:2.4.1.11]	Starch and sucrose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;PI3K-Akt signaling pathway;AMPK signaling pathway;Insulin signaling pathway;Glucagon signaling pathway;Insulin resistance
+K01679	fumarate hydratase, class II [EC:4.2.1.2]	Citrate cycle (TCA cycle);Pyruvate metabolism;Carbon fixation pathways in prokaryotes;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Cushing syndrome;Pathways in cancer;Renal cell carcinoma
+K23802	SAC3 family protein LENG8/THP3	
+K14338	cytochrome P450 / NADPH-cytochrome P450 reductase [EC:1.14.14.1 1.6.2.4]	Fatty acid degradation;Tryptophan metabolism;Aminobenzoate degradation;Microbial metabolism in diverse environments
+K11251	histone H2A	Necroptosis;Alcoholism;Systemic lupus erythematosus
+K14647	minor extracellular serine protease Vpr [EC:3.4.21.-]	
+K04717	sphingosine-1-phosphate phosphotase 2 [EC:3.1.3.-]	Sphingolipid metabolism;Metabolic pathways;Sphingolipid signaling pathway
+K20360	TBC1 domain family member 2	
+K00565	mRNA (guanine-N7-)-methyltransferase [EC:2.1.1.56]	mRNA surveillance pathway
+K15918	D-glycerate 3-kinase [EC:2.7.1.31]	Glycine, serine and threonine metabolism;Glycerolipid metabolism;Glyoxylate and dicarboxylate metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Carbon metabolism
+K04078	chaperonin GroES	
+K06889	uncharacterized protein	
+K03064	26S proteasome regulatory subunit T4	Proteasome;Alzheimer disease;Parkinson disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Prion disease;Epstein-Barr virus infection
+K17279	receptor expression-enhancing protein 5/6	
+K05894	12-oxophytodienoic acid reductase [EC:1.3.1.42]	alpha-Linolenic acid metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K20180	vacuolar protein sorting-associated protein 16	Autophagy - yeast;Salmonella infection
+K04725	E3 ubiquitin-protein ligase XIAP [EC:2.3.2.27]	Platinum drug resistance;NF-kappa B signaling pathway;Ubiquitin mediated proteolysis;Apoptosis;Apoptosis - fly;Apoptosis - multiple species;Necroptosis;Focal adhesion;NOD-like receptor signaling pathway;Toxoplasmosis;Human T-cell leukemia virus 1 infection;Pathways in cancer;Small cell lung cancer
+K19001	ATP-dependent DNA helicase	
+K03352	anaphase-promoting complex subunit 5	Cell cycle;Cell cycle - yeast;Meiosis - yeast;Oocyte meiosis;Ubiquitin mediated proteolysis;IL-17 signaling pathway;Progesterone-mediated oocyte maturation;Human T-cell leukemia virus 1 infection
+K01850	chorismate mutase [EC:5.4.99.5]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K03847	alpha-1,6-mannosyltransferase [EC:2.4.1.260]	N-Glycan biosynthesis;Various types of N-glycan biosynthesis;Metabolic pathways
+K15075	DNA repair/transcription protein MET18/MMS19	
+K03860	phosphatidylinositol N-acetylglucosaminyltransferase subunit Q	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis;Metabolic pathways
+K19708	protein phosphatase PTC6 [EC:3.1.3.16 3.1.3.43]	Mitophagy - yeast
+K20307	trafficking protein particle complex subunit 10	
+K14857	AdoMet-dependent rRNA methyltransferase SPB1 [EC:2.1.1.-]	
+K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]	Folate biosynthesis;Metabolic pathways
+K15073	ubiquitin ligase complex F-box protein UFO1	
+K14809	ATP-dependent RNA helicase DDX55/SPB4 [EC:3.6.4.13]	
+K00809	deoxyhypusine synthase [EC:2.5.1.46]	
+K22835	1,3-beta-glucanosyltransferase GAS4 [EC:2.4.1.-]	
+K14821	bud site selection protein 20	
+K20221	importin-4	
+K06965	protein pelota	mRNA surveillance pathway
+K03933	chitin-binding protein	
+K13526	cation-transporting P-type ATPase 13A2 [EC:7.2.2.-]	
+K10581	ubiquitin-conjugating enzyme E2 O [EC:2.3.2.24]	Ubiquitin mediated proteolysis
+K10747	DNA ligase 1 [EC:6.5.1.1 6.5.1.6 6.5.1.7]	DNA replication;Base excision repair;Nucleotide excision repair;Mismatch repair
+K00423	L-ascorbate oxidase [EC:1.10.3.3]	Ascorbate and aldarate metabolism;Metabolic pathways
+K08711	ATP-binding cassette, subfamily G (WHITE), member 2, PDR	ABC transporters
+K10901	bloom syndrome protein [EC:3.6.4.12]	Homologous recombination;Fanconi anemia pathway
+K00928	aspartate kinase [EC:2.7.2.4]	Glycine, serine and threonine metabolism;Monobactam biosynthesis;Cysteine and methionine metabolism;Lysine biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids
+K11396	chromatin modification-related protein YNG2	
+K18160	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2	Thermogenesis
+K02876	large subunit ribosomal protein L15	Ribosome
+K21993	formate transporter	
+K01808	ribose 5-phosphate isomerase B [EC:5.3.1.6]	Pentose phosphate pathway;Fructose and mannose metabolism;Carbon fixation in photosynthetic organisms;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids
+K17803	methyltransferase OMS1, mitochondrial [EC:2.1.1.-]	
+K21197	PHO85 cyclin-5	Autophagy - yeast
+K13343	peroxin-14	Peroxisome
+K01230	mannosyl-oligosaccharide alpha-1,2-mannosidase [EC:3.2.1.113]	N-Glycan biosynthesis;Various types of N-glycan biosynthesis;Metabolic pathways;Protein processing in endoplasmic reticulum
+K02870	large subunit ribosomal protein L12e	Ribosome
+K01193	beta-fructofuranosidase [EC:3.2.1.26]	Galactose metabolism;Starch and sucrose metabolism;Metabolic pathways;Biosynthesis of secondary metabolites
+K12584	m7GpppX diphosphatase [EC:3.6.1.59]	RNA degradation
+K13195	cold-inducible RNA-binding protein	
+K00511	squalene monooxygenase [EC:1.14.14.17]	Steroid biosynthesis;Sesquiterpenoid and triterpenoid biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K08333	phosphoinositide-3-kinase, regulatory subunit 4 [EC:2.7.11.1]	Autophagy - other;Autophagy - yeast;Autophagy - animal;Apelin signaling pathway;Alzheimer disease;Amyotrophic lateral sclerosis;Huntington disease;Spinocerebellar ataxia;Shigellosis
+K21641	glucose transport transcription regulator RGT1	
+K02483	two-component system, OmpR family, response regulator	
+K01480	agmatinase [EC:3.5.3.11]	Arginine and proline metabolism;Metabolic pathways
+K17301	coatomer subunit beta	
+K11673	actin-related protein 8	
+K13299	glutathione S-transferase kappa 1 [EC:2.5.1.18]	Glutathione metabolism;Metabolism of xenobiotics by cytochrome P450;Drug metabolism - cytochrome P450;Metabolic pathways;Peroxisome;Chemical carcinogenesis
+K11649	SWI/SNF related-matrix-associated actin-dependent regulator of chromatin subfamily C	Thermogenesis;Hepatocellular carcinoma
+K00387	sulfite oxidase [EC:1.8.3.1]	Sulfur metabolism;Metabolic pathways;Microbial metabolism in diverse environments
+K01823	isopentenyl-diphosphate Delta-isomerase [EC:5.3.3.2]	Terpenoid backbone biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K01728	pectate lyase [EC:4.2.2.2]	Pentose and glucuronate interconversions;Metabolic pathways;Quorum sensing
+K23902	programmed cell death protein 6	
+K11984	U4/U6.U5 tri-snRNP-associated protein 1	Spliceosome
+K17069	O-acetylhomoserine/O-acetylserine sulfhydrylase [EC:2.5.1.49 2.5.1.47]	Cysteine and methionine metabolism;Sulfur metabolism;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids
+K19525	vacuolar protein sorting-associated protein 13A/C	
+K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]	Pentose phosphate pathway;Pentose and glucuronate interconversions;Carbon fixation in photosynthetic organisms;Metabolic pathways;Biosynthesis of secondary metabolites;Microbial metabolism in diverse environments;Carbon metabolism;Biosynthesis of amino acids
+K12886	heterogeneous nuclear ribonucleoprotein K	Spliceosome;Viral carcinogenesis;MicroRNAs in cancer
+K06630	14-3-3 protein epsilon	MAPK signaling pathway - yeast;Cell cycle;Oocyte meiosis;PI3K-Akt signaling pathway;Hippo signaling pathway;Hippo signaling pathway - fly;NOD-like receptor signaling pathway;Neurotrophin signaling pathway;Hepatitis C;Viral carcinogenesis
+K13026	ATP-dependent RNA helicase DHX57 [EC:3.6.4.13]	
+K02920	large subunit ribosomal protein L36e	Ribosome
+K02865	large subunit ribosomal protein L10Ae	Ribosome
+K03929	para-nitrobenzyl esterase [EC:3.1.1.-]	
+K07126	uncharacterized protein	
+K09402	forkhead box protein J1	
+K11511	centromere protein S	Fanconi anemia pathway
+K11572	DASH complex subunit SPC19	
+K20318	protein SYS1	
+K01875	seryl-tRNA synthetase [EC:6.1.1.11]	Aminoacyl-tRNA biosynthesis
+K01609	indole-3-glycerol phosphate synthase [EC:4.1.1.48]	Phenylalanine, tyrosine and tryptophan biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites;Biosynthesis of amino acids
+K12598	ATP-dependent RNA helicase DOB1 [EC:3.6.4.13]	RNA degradation
+K12823	ATP-dependent RNA helicase DDX5/DBP2 [EC:3.6.4.13]	Spliceosome;Transcriptional misregulation in cancer;Proteoglycans in cancer
+K23334	Ran-binding protein 9/10	
+K14962	COMPASS component SWD2	mRNA surveillance pathway
+K00938	phosphomevalonate kinase [EC:2.7.4.2]	Terpenoid backbone biosynthesis;Metabolic pathways;Biosynthesis of secondary metabolites
+K03233	elongation factor 1-gamma	Legionellosis
+K07408	cytochrome P450 family 1 subfamily A polypeptide 1 [EC:1.14.14.1]	Steroid hormone biosynthesis;Tryptophan metabolism;Retinol metabolism;Metabolism of xenobiotics by cytochrome P450;Metabolic pathways;Ovarian steroidogenesis;Chemical carcinogenesis
+K01725	cyanate lyase [EC:4.2.1.104]	Nitrogen metabolism;Metabolic pathways
+K18730	PERQ amino acid-rich with GYF domain-containing protein	
+K00288	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase / formyltetrahydrofolate synthetase [EC:1.5.1.5 3.5.4.9 6.3.4.3]	One carbon pool by folate;Metabolic pathways;Microbial metabolism in diverse environments
+K17778	mitochondrial import inner membrane translocase subunit TIM10	
+K20523	SH3 domain-containing YSC84-like protein 1	
+K08010	neutrophil cytosolic factor 2	Phagosome;Osteoclast differentiation;Leukocyte transendothelial migration;Prion disease;Leishmaniasis;Fluid shear stress and atherosclerosis
+K02152	V-type H+-transporting ATPase subunit G	Oxidative phosphorylation;Metabolic pathways;Phagosome;mTOR signaling pathway;Synaptic vesicle cycle;Collecting duct acid secretion;Vibrio cholerae infection;Epithelial cell signaling in Helicobacter pylori infection;Human papillomavirus infection;Rheumatoid arthritis
+K02979	small subunit ribosomal protein S28e	Ribosome
+K05649	ATP-binding cassette, subfamily A (ABC1), member 6	ABC transporters
+K15190	7SK snRNA methylphosphate capping enzyme [EC:2.1.1.-]	
