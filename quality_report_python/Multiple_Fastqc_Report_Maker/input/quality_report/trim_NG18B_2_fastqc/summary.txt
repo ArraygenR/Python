@@ -1,0 +1,11 @@
+PASS	Basic Statistics	trim_NG18B_2.fastq
+PASS	Per base sequence quality	trim_NG18B_2.fastq
+PASS	Per tile sequence quality	trim_NG18B_2.fastq
+PASS	Per sequence quality scores	trim_NG18B_2.fastq
+WARN	Per base sequence content	trim_NG18B_2.fastq
+PASS	Per sequence GC content	trim_NG18B_2.fastq
+PASS	Per base N content	trim_NG18B_2.fastq
+PASS	Sequence Length Distribution	trim_NG18B_2.fastq
+PASS	Sequence Duplication Levels	trim_NG18B_2.fastq
+WARN	Overrepresented sequences	trim_NG18B_2.fastq
+PASS	Adapter Content	trim_NG18B_2.fastq

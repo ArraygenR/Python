@@ -1,0 +1,12 @@
+PASS	Basic Statistics	Gluc-17_S15_L001_R2_001.fastq
+FAIL	Per base sequence quality	Gluc-17_S15_L001_R2_001.fastq
+FAIL	Per tile sequence quality	Gluc-17_S15_L001_R2_001.fastq
+PASS	Per sequence quality scores	Gluc-17_S15_L001_R2_001.fastq
+FAIL	Per base sequence content	Gluc-17_S15_L001_R2_001.fastq
+FAIL	Per sequence GC content	Gluc-17_S15_L001_R2_001.fastq
+PASS	Per base N content	Gluc-17_S15_L001_R2_001.fastq
+WARN	Sequence Length Distribution	Gluc-17_S15_L001_R2_001.fastq
+FAIL	Sequence Duplication Levels	Gluc-17_S15_L001_R2_001.fastq
+WARN	Overrepresented sequences	Gluc-17_S15_L001_R2_001.fastq
+PASS	Adapter Content	Gluc-17_S15_L001_R2_001.fastq
+WARN	Kmer Content	Gluc-17_S15_L001_R2_001.fastq

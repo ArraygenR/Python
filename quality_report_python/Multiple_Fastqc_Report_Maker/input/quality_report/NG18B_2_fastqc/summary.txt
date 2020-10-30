@@ -1,0 +1,11 @@
+PASS	Basic Statistics	NG18B_2.fastq
+PASS	Per base sequence quality	NG18B_2.fastq
+PASS	Per tile sequence quality	NG18B_2.fastq
+PASS	Per sequence quality scores	NG18B_2.fastq
+WARN	Per base sequence content	NG18B_2.fastq
+PASS	Per sequence GC content	NG18B_2.fastq
+PASS	Per base N content	NG18B_2.fastq
+PASS	Sequence Length Distribution	NG18B_2.fastq
+PASS	Sequence Duplication Levels	NG18B_2.fastq
+WARN	Overrepresented sequences	NG18B_2.fastq
+PASS	Adapter Content	NG18B_2.fastq
