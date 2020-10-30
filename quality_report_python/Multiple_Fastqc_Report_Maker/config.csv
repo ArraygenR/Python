@@ -1,5 +1,0 @@
-path of folder,f1,f2,trim f1,trim f2
-/home/arraygen/Desktop/Akshata/Python/quality_report_python/input/quality_report,NG18B_1.fastq,NG18B_2.fastq,trim_NG18B_1.fastq,trim_NG18B_2.fastq
-/home/arraygen/Desktop/Akshata/Python/quality_report_python/input/Gluc-17_S152,Gluc-17_S15_L001_R1_001.fastq,Gluc-17_S15_L001_R2_001.fastq,,
-/home/arraygen/Desktop/Akshata/Python/quality_report_python/input/single_end,R1.fastq,,trim_R1.fastq,
-/home/arraygen/Desktop/Akshata/Python/quality_report_python/input/single_end (copy),R1.fastq,,,
