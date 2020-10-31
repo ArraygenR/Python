@@ -1,0 +1,56 @@
+Pathway	hya	hyb
+Glycan metabolism	2.0	1.0
+Purine metabolism	2.0	0.0
+osmoregulated periplasmic glucan (OPG) biosynthesis.	2.0	1.0
+Carbohydrate biosynthesis	2.0	0.0
+Lipid metabolism	2.0	0.0
+L-threonine degradation via oxydo-reductase pathway	1.0	2.0
+S-adenosyl-L-methionine from L-methionine: step 1/1.	1.0	0.0
+XMP from IMP: step 1/1.	1.0	0.0
+protoporphyrin-IX biosynthesis	1.0	0.0
+malonyl-CoA biosynthesis	1.0	0.0
+oxidative phosphorylation.	1.0	0.0
+Amino-acid biosynthesis	1.0	0.0
+gluconeogenesis.	1.0	0.0
+Energy metabolism	1.0	0.0
+glycine from L-threonine: step 2/2.	1.0	1.0
+Porphyrin-containing compound metabolism	1.0	1.0
+LPS O-antigen biosynthesis.	1.0	0.0
+fatty acid biosynthesis.	1.0	0.0
+glycerophospholipid metabolism.	1.0	1.0
+succinate from succinyl-CoA (ligase route): step 1/1.	1.0	1.0
+malonyl-CoA from acetyl-CoA: step 1/1.	1.0	0.0
+dTDP-L-rhamnose biosynthesis.	1.0	0.0
+Bacterial outer membrane biogenesis	1.0	0.0
+Glycan biosynthesis	1.0	2.0
+GMP biosynthesis	1.0	0.0
+S-adenosyl-L-methionine biosynthesis	1.0	0.0
+Amino-acid degradation	1.0	6.0
+XMP biosynthesis via de novo pathway	1.0	0.0
+Carbohydrate metabolism	1.0	5.0
+tricarboxylic acid cycle	1.0	4.0
+Membrane lipid metabolism	1.0	1.0
+5-aminolevulinate from L-glutamyl-tRNA(Glu): step 2/2.	1.0	0.0
+GMP from XMP (L-Gln route): step 1/1.	1.0	0.0
+glycogen biosynthesis.	1.0	2.0
+Organic acid metabolism	0.0	2.0
+NH(3) and pyruvate from D-alanine: step 1/1.	0.0	1.0
+fumarate from succinate (bacterial route): step 1/1.	0.0	1.0
+glycolate biosynthesis	0.0	1.0
+isocitrate from oxaloacetate: step 1/2.	0.0	1.0
+D-alanine degradation	0.0	1.0
+propanoate degradation.	0.0	1.0
+protoheme biosynthesis.	0.0	1.0
+glutaryl-CoA from L-lysine: step 6/6.	0.0	1.0
+L-glutamate and succinate from L-arginine: step 4/5.	0.0	1.0
+4-aminobutanoate degradation.	0.0	1.0
+glycolate from 2-phosphoglycolate: step 1/1.	0.0	1.0
+isocitrate from oxaloacetate: step 2/2.	0.0	1.0
+L-lysine degradation via saccharopine pathway	0.0	1.0
+Carbohydrate degradation	0.0	1.0
+(S)-malate from isocitrate: step 2/2.	0.0	1.0
+glyoxylate cycle	0.0	1.0
+glycolysis	0.0	1.0
+D-glyceraldehyde 3-phosphate and glycerone phosphate from D-glucose: step 4/4.	0.0	1.0
+glycine from L-threonine: step 1/2.	0.0	1.0
+L-arginine degradation via AST pathway	0.0	1.0

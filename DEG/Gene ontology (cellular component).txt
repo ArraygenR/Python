@@ -1,0 +1,44 @@
+Gene ontology (cellular component)	hya	hyb
+cytosol	30.0	28.0
+plasma membrane	6.0	12.0
+outer membrane-bounded periplasmic space	4.0	2.0
+cytoplasm	4.0	9.0
+cytosolic large ribosomal subunit	3.0	0.0
+periplasmic space	3.0	1.0
+integral component of plasma membrane	3.0	2.0
+membrane	3.0	3.0
+DNA polymerase III complex	2.0	0.0
+cytosolic small ribosomal subunit	2.0	0.0
+cell division site	1.0	1.0
+DNA polymerase III, clamp loader complex	1.0	0.0
+protein-containing complex	1.0	1.0
+succinate-CoA ligase complex	1.0	1.0
+iron-sulfur cluster transfer complex	1.0	1.0
+large ribosomal subunit	1.0	0.0
+formate dehydrogenase complex	1.0	0.0
+integral component of membrane	1.0	3.0
+cytochrome complex	1.0	0.0
+small ribosomal subunit	1.0	0.0
+glycerol-3-phosphate dehydrogenase complex	1.0	1.0
+periplasmic side of cell outer membrane	1.0	0.0
+integral component of external side of plasma membrane	1.0	1.0
+membrane protein complex	1.0	1.0
+succinate-CoA ligase complex (ADP-forming)	1.0	1.0
+cell outer membrane	1.0	1.0
+acetate CoA-transferase complex	1.0	0.0
+GroEL-GroES complex	0.0	2.0
+ATP-binding cassette (ABC) transporter complex	0.0	2.0
+NADH dehydrogenase complex	0.0	2.0
+plasma membrane respiratory chain complex I	0.0	2.0
+oxoglutarate dehydrogenase complex	0.0	2.0
+integral component of cell outer membrane	0.0	1.0
+cell wall	0.0	1.0
+mismatch repair complex	0.0	1.0
+proton-transporting ATP synthase complex, catalytic core F(1)	0.0	1.0
+pore complex	0.0	1.0
+extrinsic component of cytoplasmic side of plasma membrane	0.0	1.0
+intrinsic component of cell outer membrane	0.0	1.0
+maltose transport complex	0.0	1.0
+cell envelope Sec protein transport complex	0.0	1.0
+plasma membrane succinate dehydrogenase complex	0.0	1.0
+ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	0.0	1.0

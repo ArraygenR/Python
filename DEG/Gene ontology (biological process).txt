@@ -1,0 +1,152 @@
+Gene ontology (biological process)	hya	hyb
+transposition, DNA-mediated	9.0	10.0
+translation	5.0	1.0
+cellular response to DNA damage stimulus	4.0	4.0
+protein folding	3.0	4.0
+ribosomal large subunit assembly	3.0	0.0
+peptidoglycan biosynthetic process	2.0	0.0
+protein transport	2.0	5.0
+cell cycle	2.0	3.0
+GMP biosynthetic process	2.0	0.0
+iron-sulfur cluster assembly	2.0	2.0
+beta-glucan biosynthetic process	2.0	1.0
+lipopolysaccharide biosynthetic process	2.0	0.0
+fatty acid biosynthetic process	2.0	0.0
+response to osmotic stress	2.0	1.0
+cell division	2.0	3.0
+carbohydrate metabolic process	2.0	3.0
+protein stabilization	1.0	0.0
+ribosome biogenesis	1.0	1.0
+protein maturation	1.0	0.0
+protein maturation by protein folding	1.0	0.0
+glutaminyl-tRNA aminoacylation	1.0	0.0
+glycerol-3-phosphate metabolic process	1.0	1.0
+glutamyl-tRNA aminoacylation	1.0	0.0
+DNA replication	1.0	0.0
+phosphate ion transmembrane transport	1.0	0.0
+DNA-dependent DNA replication	1.0	0.0
+cellular respiration	1.0	1.0
+biosynthetic process	1.0	1.0
+response to UV	1.0	0.0
+anaerobic respiration	1.0	1.0
+porphyrin-containing compound biosynthetic process	1.0	1.0
+glycerol-3-phosphate biosynthetic process	1.0	1.0
+negative regulation of catalytic activity	1.0	1.0
+extracellular polysaccharide biosynthetic process	1.0	0.0
+cellular iron ion homeostasis	1.0	1.0
+transcription antitermination	1.0	1.0
+chaperone-mediated protein transport	1.0	1.0
+protein localization	1.0	1.0
+protein transport by the Sec complex	1.0	2.0
+gluconeogenesis	1.0	1.0
+long-chain fatty acid biosynthetic process	1.0	0.0
+DNA strand elongation involved in DNA replication	1.0	0.0
+regulation of cell shape	1.0	0.0
+S-adenosylmethionine biosynthetic process	1.0	0.0
+tricarboxylic acid cycle	1.0	9.0
+cellular response to bacteriocin	1.0	1.0
+O antigen biosynthetic process	1.0	0.0
+glycerophospholipid biosynthetic process	1.0	1.0
+cellular response to cold	1.0	1.0
+response to radiation	1.0	1.0
+UDP-N-acetylglucosamine biosynthetic process	1.0	1.0
+nucleobase-containing small molecule interconversion	1.0	0.0
+pyrimidine nucleotide metabolic process	1.0	0.0
+S-adenosylmethionine cycle	1.0	0.0
+dTDP-rhamnose biosynthetic process	1.0	0.0
+protein tetramerization	1.0	1.0
+protein maturation by iron-sulfur cluster transfer	1.0	1.0
+oxidative phosphorylation	1.0	0.0
+GTP biosynthetic process	1.0	0.0
+chaperone-mediated protein folding	1.0	2.0
+tellurite transport	1.0	0.0
+aerobic electron transport chain	1.0	0.0
+translational termination	1.0	0.0
+protein insertion into membrane from inner side	1.0	0.0
+formate oxidation	1.0	0.0
+oligosaccharide catabolic process	1.0	0.0
+C4-dicarboxylate transport	1.0	0.0
+protein autophosphorylation	1.0	0.0
+tetrapyrrole biosynthetic process	1.0	0.0
+glucan biosynthetic process	1.0	1.0
+response to antibiotic	1.0	1.0
+one-carbon metabolic process	1.0	0.0
+bacteriocin transport	1.0	1.0
+trehalose catabolic process	1.0	0.0
+protein homotetramerization	1.0	1.0
+glutamine metabolic process	1.0	1.0
+response to X-ray	1.0	0.0
+L-threonine catabolic process to glycine	1.0	2.0
+glycogen biosynthetic process	1.0	2.0
+malonyl-CoA biosynthetic process	1.0	0.0
+response to acidic pH	1.0	0.0
+succinyl-CoA metabolic process	1.0	1.0
+glycolytic process	1.0	1.0
+protein import	1.0	2.0
+cellular stress response to acidic pH	1.0	0.0
+protein targeting	1.0	2.0
+response to heat	1.0	5.0
+Gram-negative-bacterium-type cell outer membrane assembly	1.0	0.0
+negative regulation of translation	1.0	0.0
+glycerol-3-phosphate catabolic process	1.0	1.0
+protoporphyrinogen IX biosynthetic process	1.0	0.0
+aerobic respiration	0.0	3.0
+glyoxylate cycle	0.0	3.0
+maltodextrin transport	0.0	2.0
+chaperone cofactor-dependent protein refolding	0.0	2.0
+virion assembly	0.0	2.0
+arginine catabolic process to glutamate	0.0	1.0
+oxidation-reduction process	0.0	1.0
+mRNA catabolic process	0.0	1.0
+electron transport chain	0.0	1.0
+gamma-aminobutyric acid transport	0.0	1.0
+mannitol catabolic process	0.0	1.0
+lysyl-tRNA aminoacylation	0.0	1.0
+UDP-N-acetylglucosamine metabolic process	0.0	1.0
+oxaloacetate metabolic process	0.0	1.0
+pathogenesis	0.0	1.0
+post-translational protein acetylation	0.0	1.0
+trehalose transport	0.0	1.0
+maturation of SSU-rRNA	0.0	1.0
+acetyl-CoA biosynthetic process from acetate	0.0	1.0
+intracellular protein transmembrane transport	0.0	1.0
+regulation of DNA recombination	0.0	1.0
+chemotaxis	0.0	1.0
+cellular response to nitrogen starvation	0.0	1.0
+propionate catabolic process, 2-methylcitrate cycle	0.0	1.0
+phosphoenolpyruvate-dependent sugar phosphotransferase system	0.0	1.0
+oligopeptide transport	0.0	1.0
+peptide transport	0.0	1.0
+protein refolding	0.0	1.0
+threonine catabolic process	0.0	1.0
+glycolate biosynthetic process	0.0	1.0
+polysaccharide transport	0.0	1.0
+response to carbon starvation	0.0	1.0
+L-serine biosynthetic process	0.0	1.0
+heme metabolic process	0.0	1.0
+ncRNA processing	0.0	1.0
+L-lysine catabolic process to acetyl-CoA via saccharopine	0.0	1.0
+fructose 6-phosphate metabolic process	0.0	1.0
+arginine catabolic process to succinate	0.0	1.0
+rRNA processing	0.0	1.0
+protein N-linked glycosylation	0.0	1.0
+D-alanine catabolic process	0.0	1.0
+L-alanine oxidation to pyruvate via D-alanine	0.0	1.0
+isoleucyl-tRNA aminoacylation	0.0	1.0
+glycine decarboxylation via glycine cleavage system	0.0	1.0
+tRNA aminoacylation for protein translation	0.0	1.0
+response to oxidative stress	0.0	1.0
+ion transport	0.0	1.0
+carbon fixation	0.0	1.0
+ribosomal small subunit biogenesis	0.0	1.0
+gamma-aminobutyric acid catabolic process	0.0	1.0
+peptidyl-lysine acetylation	0.0	1.0
+response to cold	0.0	1.0
+dephosphorylation	0.0	1.0
+endonucleolytic cleavage involved in rRNA processing	0.0	1.0
+maltose transport	0.0	1.0
+mismatch repair	0.0	1.0
+acetate catabolic process	0.0	1.0
+carbohydrate transmembrane transport	0.0	1.0
+DNA repair	0.0	1.0
+regulation of translation	0.0	1.0
